@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>DBI Intranet</title>
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+		<link href="//netdna.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/custom.css">
+		<link rel="stylesheet" href="css/staff-photos.css">
+        <script src="/js/lib/modernizr-2.6.2.min.js"></script>
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="container">
+			<div class="clearfix row">
+				<div id="logo" class="col-md-2">
+					<img src="img/DBILOGO_lg.jpg"/>
+				</div>
+				<div id="header" class="col-md-10">
+					<h1>Department of Building Inspection Intranet</h1>
+					<p id="mission-statement" class="italic">
+						DBI oversees the effective, efficient, fair and safe enforcement of City building, housing, plumbing, electrical, mechanical, and disability access codes for San Francisco’s more than 195,000 buildings.
+					</p>
+				</div>
+			</div>
+			<div id="AppContent" class="row">
+				<div class="sidebar col-md-2">
+					<div id="date">
+						<script type="text/javascript">
+							var options = { weekday: 'long', year: 'numeric', month: 'short', day: 'numeric' }
+							var now = new Date().toLocaleDateString('en-US', options);
+							document.write(now);
+						</script>					
+					</div>
+					<div id="sideNavRegion">
+						<!-- dynamically populated -->
+
+					</div>
+					<div id="address">				
+						<br/>1660 Mission Street
+						<br/><nobr>San Francisco, CA 94103</nobr>
+						<br/><span class="fa fa-phone" title="Phone">&nbsp;</span> (415) 558-6088
+						<br/><span class="fa fa-fax" title="Fax">&nbsp;</span> (415) 558-6401
+					</div>
+				</div>
+				<div class="main-content col-md-10" id="appContentRegion">
+					<!-- TODO: Add a spinner here -->
+					<span id="spinner"><img src="img/ajax-loader.gif" /></span>
+				</div>
+			</div>
+			<footer>
+				<div id="copyright">
+					&copy; 
+					<script type="text/javascript">
+						var now = new Date().getFullYear();
+						document.write(now);
+					</script>
+					City and County of San Francisco Department of Building Inspections (DBI).
+				</div>
+				<div id="disclaimer">
+					The DBI Intranet is for employee use only, any unauthorized reproduction of its contents is not permitted.
+				</div>
+			</footer>
+		</div>
+    <script src="js/lib/require/require-v2.1.14.min.js"></script>
+    <script type="text/javascript">
+        require(['js/app/config.js'], function (config) {
+            require(['app/main']);
+        });
+    </script>
+
+		<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+		<!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script-->
+		<!-- Include all compiled plugins (below), or include individual files as needed -->
+		<!--script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script-->
+	</body>
+</html>

@@ -1,0 +1,312 @@
+#directors-message .staff-photo {vertical-align:bottom; margin-right:15px;}
+
+.staff ul {list-style-type:none; display: inline-block; min-width:48.5%; max-width:48.5%;}
+.staff ul li {display:table-cell; vertical-align:middle;}
+.staff .staff-info {padding-left:0;padding-right:15px;}
+/* .staff-info-cell {padding-left:15px; } */
+
+.staff-collection>.staff-info {display: inline-block; min-width:48.5%; max-width:48.5%; margin-bottom:10px;}
+.staff-info>div {display:table-cell; min-height:105px; vertical-align:middle;}
+
+.staff hr {
+    border: 0;
+    height: 1px;
+    background: #428bca;
+    background-image: -webkit-linear-gradient(left, #357ebd, #428bca, #357ebd); 
+    background-image:    -moz-linear-gradient(left, #357ebd, #428bca, #357ebd); 
+    background-image:     -ms-linear-gradient(left, #357ebd, #428bca, #357ebd); 
+    background-image:      -o-linear-gradient(left, #357ebd, #428bca, #357ebd); 
+    background-image:         linear-gradient(left, #357ebd, #428bca, #357ebd); 
+}
+.staff-photo { 
+	float:left; 
+	width:100px; 
+	height:100px; 
+	margin:0 15px 0 0;
+	max-height:100px; 
+	border:3px solid #357ebd; 
+	box-shadow: 0 2px 5px #333; 
+	border-radius: 20px;
+	background-position: center center; 
+	background-size: cover;
+	background-repeat:no-repeat;
+	background-image: url('/img/staff_photos/No_Photo.jpg');
+}
+
+.painted-ladies { background-image: url('/img/homeView/painted_ladies.jpg');}
+/* Director's Office */
+.tom-hui { background-image: url('/img/staff_photos/DIR/HUI_TOM.jpg');}
+.carolyn-jayin { background-image: url('/img/staff_photos/DIR/JAYIN_CAROLYN.jpg');}
+.adriana-ortiz { background-image: url('/img/staff_photos/DIR/ORTIZ_ADRIANA.jpg');}
+.william-strawn { background-image: url('/img/staff_photos/LPA/STRAWN_WILLIAM.jpg');}
+/* BIC */
+.kevin-clinch { background-image: url('/img/staff_photos/BIC/CLINCH_KEVIN.jpg');}
+.sonya-harris { background-image: url('/img/staff_photos/BIC/HARRIS_SONYA.jpg');}
+.frank-lee { background-image: url('/img/staff_photos/BIC/LEE_FRANK.jpg');}
+.warren-mar { background-image: url('/img/staff_photos/BIC/MAR_WARREN.jpg');}
+.angus-mccarthy { background-image: url('/img/staff_photos/BIC/MCCARTHY_ANGUS_BIC.jpg');}
+.james-mccray { background-image: url('/img/staff_photos/BIC/MCCRAY_JAMES.jpg');}
+.myrna-melgar { background-image: url('/img/staff_photos/BIC/MELGAR_MYRNA_BIC.jpg');}
+.debra-walker { background-image: url('/img/staff_photos/BIC/WALKER_DEBRA_BIC.jpg');}
+/* Permit Services */
+.edward-sweeney { background-image: url('/img/staff_photos/PS/SWEENEY_EDWARD.jpg');}
+.sylvia-thai { background-image: url('/img/staff_photos/PS/THAI_SYLVIA.jpg');}
+/* Central Permit Bureau */
+.amaris-chan { background-image: url('/img/staff_photos/CPB/CHAN_AMARIS.jpg');}
+.wai-fong-cheung { background-image: url('/img/staff_photos/CPB/CHEUNG_WAI-FONG.jpg');}
+.anita-lee { background-image: url('/img/staff_photos/CPB/LEE_ANITA.jpg');}
+.ana-mayorga { background-image: url('/img/staff_photos/CPB/MAYORGA_ANA.jpg');}
+.grace-secondez { background-image: url('/img/staff_photos/CPB/SECONDEZ_GRACE.jpg');}
+.kathy-shek { background-image: url('/img/staff_photos/CPB/SHEK_KATHY.jpg');}
+.anne-yu { background-image: url('/img/staff_photos/CPB/YU_ANNE.jpg');}
+/* Help Desk */
+.brenda-yan { background-image: url('/img/staff_photos/HD/YAN_BRENDA.jpg');}
+.christine-chang { background-image: url('/img/staff_photos/HD/CHANG_CHRISTINE.jpg');}
+.peter-gibson { background-image: url('/img/staff_photos/HD/GIBSON_PETER.jpg');}
+.patricia-jayin { background-image: url('/img/staff_photos/HD/JAYIN_PATRICIA.jpg');}
+/* Initial Plan Review */
+.tara-bazile { background-image: url('/img/staff_photos/IPR/BAZILE_TARA.jpg');}
+.susan-bufka { background-image: url('/img/staff_photos/IPR/BUFKA_SUSAN.jpg');}
+.jance-chung { background-image: url('/img/staff_photos/IPR/CHUNG_JANCE.jpg');}
+.fidel-del-rosario { background-image: url('/img/staff_photos/IPR/DEL_ROSARIO_FIDEL.jpg');}
+.delia-galiza { background-image: url('/img/staff_photos/IPR/GALIZA_DELIA.jpg');}
+.anthony-grieco { background-image: url('/img/staff_photos/IPR/GRIECO_ANTHONY.jpg');}
+.evelyn-karcs { background-image: url('/img/staff_photos/IPR/KARCS_EVELYN_M.jpg');}
+.yolanda-laurente { background-image: url('/img/staff_photos/IPR/LAURENTE_YOLANDA.jpg');}
+.marianne-pangelinan { background-image: url('/img/staff_photos/IPR/PANGELINAN_MARIANNE.jpg');}
+.may-pasion { background-image: url('/img/staff_photos/IPR/PASION_MAY.jpg');}
+.hareggewain-shawl { background-image: url('/img/staff_photos/IPR/SHAWL_HAREGGEWAIN.jpg');}
+.christopher-victorio { background-image: url('/img/staff_photos/IPR/VICTORIO_CHRISTOPHER.jpg');}
+.janet-yip { background-image: url('/img/staff_photos/IPR/YIP_JANET.jpg');}
+.ren-yu-zhang { background-image: url('/img/staff_photos/IPR/ZHANG_REN_YU.jpg');}
+/* Plan Review Services */
+.irene-bartholomew { background-image: url('/img/staff_photos/PRS/BARTHOLOMEW_IRENE.jpg');}
+.joseph-chan { background-image: url('/img/staff_photos/PRS/CHAN_JOSEPH.jpg');}
+.min-chen { background-image: url('/img/staff_photos/PRS/CHEN_MIN.jpg');}
+.jimmy-cheung { background-image: url('/img/staff_photos/PRS/CHEUNG_JIMMY.jpg');}
+.jonathan-chiu { background-image: url('/img/staff_photos/PRS/CHIU_JONATHAN.jpg');}
+.liu-chu { background-image: url('/img/staff_photos/PRS/CHU_LIU.jpg');}
+.robert-chun { background-image: url('/img/staff_photos/PRS/CHUN_ROBERT.jpg');}
+.dennis-dang { background-image: url('/img/staff_photos/PRS/DANG_DENNIS.jpg');}
+.gary-ho { background-image: url('/img/staff_photos/PRS/HO_GARY.jpg');}
+.qi-hu { background-image: url('/img/staff_photos/PRS/HU_QI.jpg');}
+.vivian-huang { background-image: url('/img/staff_photos/PRS/HUANG_VIVIAN.jpg');}
+.stephen-kwok { background-image: url('/img/staff_photos/PRS/KWOK_STEPHEN.jpg');}
+.jeff-lai { background-image: url('/img/staff_photos/PRS/LAI_JEFF.jpg');}
+.danny-lau { background-image: url('/img/staff_photos/PRS/LAU_DANNY.jpg');}
+.thomas-le { background-image: url('/img/staff_photos/PRS/LE_THOMAS.jpg');}
+.mira-lee { background-image: url('/img/staff_photos/PRS/LEE_MIRA.jpg');}
+.mandy-lei { background-image: url('/img/staff_photos/PRS/LEI_MANDY.jpg');}
+.mabel-li { background-image: url('/img/staff_photos/PRS/LI_MABEL.jpg');}
+.emily-lin { background-image: url('/img/staff_photos/PRS/LIN_EMILY.jpg');}
+.chu-liu { background-image: url('/img/staff_photos/PRS/LIU_CHU.jpg');}
+.jeffrey-ma { background-image: url('/img/staff_photos/PRS/MA_JEFFREY.jpg');}
+.timothy-nagata { background-image: url('/img/staff_photos/PRS/NAGATA_TIMOTHY.jpg');}
+.reynaldo-ortega { background-image: url('/img/staff_photos/PRS/ORTEGA_REYNALDO.jpg');}
+.joseph-ospital { background-image: url('/img/staff_photos/PRS/OSPITAL_JOSEPH.jpg');}
+.rodolfo-pada { background-image: url('/img/staff_photos/PRS/PADA_RODOLFO.jpg');}
+.david-pang { background-image: url('/img/staff_photos/PRS/PANG_DAVID.jpg');}
+.matthew-ralls { background-image: url('/img/staff_photos/PRS/RALLS_MATTHEW.jpg');}
+.giles-samarasinghe { background-image: url('/img/staff_photos/PRS/SAMARASINGHE_GILES.jpg');}
+.mohsin-shaikh { background-image: url('/img/staff_photos/PRS/SHAIKH_MOHSIN.jpg');}
+.alan-smith { background-image: url('/img/staff_photos/PRS/SMITH_ALAN.jpg');}
+.xiang-susie-song { background-image: url('/img/staff_photos/PRS/SONG_XIANG_SUSIE.jpg');}
+.richard-tam { background-image: url('/img/staff_photos/PRS/TAM_RICHARD.jpg');}
+.simon-tam { background-image: url('/img/staff_photos/PRS/TAM_SIMON.jpg');}
+.hanson-tom { background-image: url('/img/staff_photos/PRS/TOM_HANSON.jpg');}
+.ron-tom { background-image: url('/img/staff_photos/PRS/TOM_RON.jpg');}
+.mark-walls { background-image: url('/img/staff_photos/PRS/WALLS_MARK.jpg');}
+.irene-wong { background-image: url('/img/staff_photos/PRS/WONG_IRENE.jpg');}
+.willy-yau { background-image: url('/img/staff_photos/PRS/YAU_WILLY.jpg');}
+.diane-yin { background-image: url('/img/staff_photos/PRS/YIN_DIANE.jpg');}
+.cyril-yu { background-image: url('/img/staff_photos/PRS/YU_CYRIL.jpg');}
+.howard-zee { background-image: url('/img/staff_photos/PRS/ZEE_HOWARD.jpg');}
+.james-zhan { background-image: url('/img/staff_photos/PRS/ZHAN_JAMES.jpg');}
+/* Technical Services */
+.david-leung { background-image: url('/img/staff_photos/TSD/LEUNG_DAVID.jpg');}
+.yan-yan-chew { background-image: url('/img/staff_photos/TSD/CHEW_YAN-YAN.jpg');}
+.cora-ella { background-image: url('/img/staff_photos/TSD/ELLA_CORA.jpg');}
+.kirk-means { background-image: url('/img/staff_photos/TSD/MEANS_KIRK.jpg');}
+/* Management Information Services */
+.hemalatha-nekkanti { background-image: url('/img/staff_photos/MIS/NEKKANTI_HEMALATHA.jpg');}
+.catherine-cruz { background-image: url('/img/staff_photos/MIS/CRUZ_CATHERINE.jpg');}
+.daniel-joel-cusi { background-image: url('/img/staff_photos/MIS/CUSI_DANIEL_JOEL.jpg');}
+.kevin-edwards { background-image: url('/img/staff_photos/MIS/EDWARDS_KEVIN.jpg');}
+.pamela-fong { background-image: url('/img/staff_photos/MIS/FONG_PAMELA.jpg');}
+.kevin-ip { background-image: url('/img/staff_photos/MIS/IP_KEVIN.jpg');}
+.kelvin-nguyen { background-image: url('/img/staff_photos/MIS/NGUYEN_KELVIN.jpg');}
+.cirila-santiago { background-image: url('/img/staff_photos/MIS/SANTIAGO_CIRILA.jpg');}
+.harold-steger { background-image: url('/img/staff_photos/MIS/STEGER_HAROLD.jpg');}
+.sim-yeung { background-image: url('/img/staff_photos/MIS/YEUNG_Y_SIM.jpg');}
+.andy-yu { background-image: url('/img/staff_photos/MIS/YU_ANDY.jpg');}
+/* Inspection Services */
+.maria-asuncion { background-image: url('/img/staff_photos/IS/ASUNCION_MARIA.jpg');}
+.czarina-blackshear { background-image: url('/img/staff_photos/IS/BLACKSHEAR_CZARINA.jpg');}
+.sharae-brown { background-image: url('/img/staff_photos/IS/BROWN_SHARAE.jpg');}
+.alma-canindin { background-image: url('/img/staff_photos/IS/CANINDIN_ALMA.jpg');}
+.adora-canotal { background-image: url('/img/staff_photos/IS/CANOTAL_ADORA_R.jpg');}
+.neil-friedman { background-image: url('/img/staff_photos/IS/FRIEDMAN_NEIL.jpg');}
+.samuel-gregory { background-image: url('/img/staff_photos/IS/GREGORY_SAMUEL.jpg');}
+.carmen-hasbun { background-image: url('/img/staff_photos/IS/HASBUN_CARMEN.jpg');}
+.alvina-lei { background-image: url('/img/staff_photos/IS/LEI_ALVINA.jpg');} 
+.jing-jing-lu { background-image: url('/img/staff_photos/IS/LU_JINGJING.jpg');} 
+.daniel-lowrey { background-image: url('/img/staff_photos/IS/LOWREY_DANIEL.jpg');}
+.ben-man { background-image: url('/img/staff_photos/IS/MAN_BEN.jpg');}
+.carrie-pei { background-image: url('/img/staff_photos/IS/PEI_CARRIE_YING.jpg');}
+.gregory-slocum { background-image: url('/img/staff_photos/IS/SLOCUM_GREGORY.jpg');}
+.mehret-tesfaye { background-image: url('/img/staff_photos/IS/TESFAYE_MEHRET.jpg');}
+.christina-wang { background-image: url('/img/staff_photos/IS/WANG_CHRISTINA.jpg');}
+/* Building Inspection Division */
+.raymond-berrios { background-image: url('/img/staff_photos/BID/BERRIOS_RAYMOND.jpg');}
+.sean-birmingham { background-image: url('/img/staff_photos/BID/BIRMINGHAM_SEAN.jpg');}
+.chester-chiu { background-image: url('/img/staff_photos/BID/CHIU_CHESTER.jpg');}
+.yuang-tam-chiu { background-image: url('/img/staff_photos/BID/CHIU_YUANG-TAM.jpg');}
+.fergal-clancy { background-image: url('/img/staff_photos/BID/CLANCY_FERGAL.jpg');}
+.colette-cummins { background-image: url('/img/staff_photos/BID/CUMMINS_COLETTE.jpg');}
+.john-cuneo { background-image: url('/img/staff_photos/BID/CUNEO_JOHN.jpg');}
+.bernie-curran { background-image: url('/img/staff_photos/BID/CURRAN_BERNARD.jpg');}
+.nancy-curvino { background-image: url('/img/staff_photos/BID/CURVINO_NANCY.jpg');}
+.edward-donnelly { background-image: url('/img/staff_photos/BID/DONNELLY_EDWARD.jpg');}
+.joseph-duffy { background-image: url('/img/staff_photos/BID/DUFFY_JOSEPH.jpg');}
+.thomas-fessler { background-image: url('/img/staff_photos/BID/FESSLER_THOMAS.jpg');}
+.edward-greene { background-image: url('/img/staff_photos/BID/GREENE_EDWARD.jpg');}
+.matthew-greene { background-image: url('/img/staff_photos/BID/GREENE_MATTHEW.jpg');}
+.steve-hajnal { background-image: url('/img/staff_photos/BID/HAJNAL_STEVE.jpg');}
+.darlene-hartley { background-image: url('/img/staff_photos/BID/HARTLEY_DARLENE.jpg');}
+.mauricio-hernandez { background-image: url('/img/staff_photos/BID/HERNANDEZ_MAURICIO.jpg');}
+.brett-howard { background-image: url('/img/staff_photos/BID/HOWARD_BRETT.jpg');}
+.thomas-keane { background-image: url('/img/staff_photos/BID/KEANE_THOMAS.jpg');}
+.nelson-lau { background-image: url('/img/staff_photos/BID/LAU_NELSON.jpg');}
+.kevin-mchugh { background-image: url('/img/staff_photos/BID/MCHUGH_KEVIN.jpg');}
+.patrick-oriordan { background-image: url('/img/staff_photos/BID/ORIORDAN_PATRICK.jpg');}
+.robert-power { background-image: url('/img/staff_photos/BID/POWER_ROBERT.jpg');}
+.michael-quinlan { background-image: url('/img/staff_photos/BID/QUINLAN_MICHAEL.jpg');}
+.leopoldo-rafael { background-image: url('/img/staff_photos/BID/RAFAEL_LEOPOLDO.jpg');}
+.chris-schroeder { background-image: url('/img/staff_photos/BID/SCHROEDER_CHRIS.jpg');}
+.thomas-venizelos { background-image: url('/img/staff_photos/BID/VENIZELOS_THOMAS.jpg');}
+.john-yam { background-image: url('/img/staff_photos/BID/YAM_JOHN.jpg');}
+.joseph-yu { background-image: url('/img/staff_photos/BID/YU_JOSEPH.jpg');}
+/* Electrical Inspection Division */
+.ron-allen { background-image: url('/img/staff_photos/EID/ALLEN_RON.jpg');}
+.osha-ashworth { background-image: url('/img/staff_photos/EID/ASHWORTH_OSHA.jpg');}
+.michael-bain { background-image: url('/img/staff_photos/EID/BAIN_MICHAEL.jpg');}
+.kenneth-burke { background-image: url('/img/staff_photos/EID/BURKE_KENNETH.jpg');}
+.gary-clifton { background-image: url('/img/staff_photos/EID/CLIFTON_GARY.jpg');}
+.michael-doherty { background-image: url('/img/staff_photos/EID/DOHERTY_MICHAEL.jpg');}
+.daniel-fross { background-image: url('/img/staff_photos/EID/FROSS_DANIEL.jpg');}
+.dennis-holl { background-image: url('/img/staff_photos/EID/HOLL_DENNIS.jpg');}
+.bryan-keil { background-image: url('/img/staff_photos/EID/KEIL_BRYAN.jpg');}
+.sergey-kondrashov { background-image: url('/img/staff_photos/EID/KONDRASHOV_SERGEY.jpg');}
+.chantel-lewis { background-image: url('/img/staff_photos/EID/LEWIS_CHANTEL.jpg');}
+.roger-mascio { background-image: url('/img/staff_photos/EID/MASCIO_ROGER.jpg');}
+.jeffrey-molinari { background-image: url('/img/staff_photos/EID/MOLINARI_JEFFREY.jpg');}
+.paul-ortiz { background-image: url('/img/staff_photos/EID/ORTIZ_PAUL.jpg');}
+.cheryl-rose { background-image: url('/img/staff_photos/EID/ROSE_CHERYL.jpg');}
+.nicholas-russell { background-image: url('/img/staff_photos/EID/RUSSELL_NICHOLAS.jpg');}
+.matthew-schlecht { background-image: url('/img/staff_photos/EID/SCHLECHT_MATTHEW.jpg');}
+.vernon-takasuka { background-image: url('/img/staff_photos/EID/TAKASUKA_VERNON.jpg');}
+.robert-vankoll { background-image: url('/img/staff_photos/EID/VAN_KOLL_ROBERT.jpg');}
+/* Plumbing Inspection Division */
+.anthony-amable { background-image: url('/img/staff_photos/PID/AMABLE_ANTHONY.jpg');}
+.jason-buckley { background-image: url('/img/staff_photos/PID/BUCKLEY_JASON.jpg');}
+.robert-christman { background-image: url('/img/staff_photos/PID/CHRISTMAN_ROBERT.jpg');}
+.roland-davantes { background-image: url('/img/staff_photos/PID/DAVANTES_ROLAND.jpg');}
+.robert-farrow { background-image: url('/img/staff_photos/PID/FARROW_ROBERT.jpg');}
+.david-gotelli { background-image: url('/img/staff_photos/PID/GOTELLI_DAVID.jpg');}
+.greg-hill { background-image: url('/img/staff_photos/PID/HILL_GREG.jpg');}
+.michael-jurado { background-image: url('/img/staff_photos/PID/JURADO_MICHAEL.jpg');}
+.david-ledda { background-image: url('/img/staff_photos/PID/LEDDA_DAVID.jpg');}
+.michael-mitchell { background-image: url('/img/staff_photos/PID/MITCHELL_MICHAEL.jpg');}
+.james-osullivan { background-image: url('/img/staff_photos/PID/OSULLIVAN_JAMES.jpg');}
+.dan-ortega { background-image: url('/img/staff_photos/PID/ORTEGA_DAN.jpg');}
+.steven-panelli { background-image: url('/img/staff_photos/PID/PANELLI_STEVEN.jpg');}
+.daniel-shea-iii { background-image: url('/img/staff_photos/PID/SHEA_III_DANIEL.jpg');}
+.richard-strabel { background-image: url('/img/staff_photos/PID/STRABEL_RICHARD.jpg');}
+.john-watson { background-image: url('/img/staff_photos/PID/WATSON_JOHN.jpg');}
+.wayne-wong { background-image: url('/img/staff_photos/PID/WONG_WAYNE.jpg');}
+.kenneth-young { background-image: url('/img/staff_photos/PID/YOUNG_KENNETH.jpg');}
+/* Code Enforcement Section */
+.catherine-byrd { background-image: url('/img/staff_photos/CES/BYRD_CATHERINE.jpg');}
+.donal-duffy { background-image: url('/img/staff_photos/CES/DUFFY_DONAL.jpg');}
+.serena-fung { background-image: url('/img/staff_photos/CES/FUNG_SERENA.jpg');}
+.michael-gunnell { background-image: url('/img/staff_photos/CES/GUNNELL_MICHAEL.jpg');}
+.norman-gutierrez { background-image: url('/img/staff_photos/CES/GUTIERREZ_NORMAN.jpg');}
+.danielle-hendricks { background-image: url('/img/staff_photos/CES/HENDRICKS_DANIELLE.jpg');}
+.john-hinchion { background-image: url('/img/staff_photos/CES/HINCHION_JOHN.jpg');}
+.alan-lei { background-image: url('/img/staff_photos/CES/LEI_ALAN.jpg');}
+.james-li { background-image: url('/img/staff_photos/CES/LI_JAMES.jpg');}
+.keith-mather { background-image: url('/img/staff_photos/CES/MATHER_KEITH.jpg');}
+.gloria-san-buenaventura { background-image: url('/img/staff_photos/CES/SAN_BUENAVENTURA_GLORIA.jpg');}
+.donald-simas { background-image: url('/img/staff_photos/CES/SIMAS_DONALD.jpg');}
+.teresita-sulit { background-image: url('/img/staff_photos/CES/SULIT_TERESITA.jpg');}
+.thomas-theriault { background-image: url('/img/staff_photos/CES/THERIAULT_THOMAS.jpg');}
+/* Housing Inspection Division */
+.luis-barahona { background-image: url('/img/staff_photos/HIS/BARAHONA_LUIS.jpg');}
+.rosemary-bosque { background-image: url('/img/staff_photos/HIS/BOSQUE_ROSEMARY.jpg');}
+.duke-bragg { background-image: url('/img/staff_photos/HIS/BRAGG_DUKE.jpg');}
+.mackenzie-calloway { background-image: url('/img/staff_photos/HIS/CALLOWAY_MACKENZIE.jpg');}
+.johanna-coble { background-image: url('/img/staff_photos/HIS/COBLE_JOHANNA.jpg');}
+.alan-davison { background-image: url('/img/staff_photos/HIS/DAVISON_ALAN.jpg');}
+.harry-dervartanian { background-image: url('/img/staff_photos/HIS/DER_VARTANIAN_HARRY.jpg');}
+.ronald-dicks { background-image: url('/img/staff_photos/HIS/DICKS_RONALD.jpg');}
+.james-galvis { background-image: url('/img/staff_photos/HIS/GALVIS_JAMES.jpg');}
+.christopher-grady { background-image: url('/img/staff_photos/HIS/GRADY_CHRISTOPHER.jpg');}
+.david-herring { background-image: url('/img/staff_photos/HIS/HERRING_DAVID.jpg');}
+.andy-karcs { background-image: url('/img/staff_photos/HIS/KARCS_ANDREW.jpg');}
+.marisa-lee-chan { background-image: url('/img/staff_photos/HIS/LEE_CHAN_MARISSA.jpg');}
+.albert-leong { background-image: url('/img/staff_photos/HIS/LEONG_ALBERT.jpg');}
+.anthony-lepe { background-image: url('/img/staff_photos/HIS/LEPE_ANTHONY.jpg');}
+.barbara-lopez { background-image: url('/img/staff_photos/HIS/LOPEZ_BARBARA.jpg');}
+.jose-lopez { background-image: url('/img/staff_photos/HIS/LOPEZ_JOSE.jpg');}
+.matthew-luton { background-image: url('/img/staff_photos/HIS/LUTON_MATTHEW.jpg');}
+.danny-mak { background-image: url('/img/staff_photos/HIS/MAK_DANNY.jpg');}
+.hatem-mansur { background-image: url('/img/staff_photos/HIS/MANSUR_HATEM.jpg');}
+.liam-mccarthy { background-image: url('/img/staff_photos/HIS/MCCARTHY_LIAM.jpg');}
+.patrick-mckenzie { background-image: url('/img/staff_photos/HIS/MCKENZIE_PATRICK.jpg');}
+.patrick-mcmanus { background-image: url('/img/staff_photos/HIS/MCMANUS_PATRICK.jpg');}
+.theresa-muehlbauer { background-image: url('/img/staff_photos/HIS/MUEHLBAUER_THERESA.jpg');}
+.stephen-mungovan { background-image: url('/img/staff_photos/HIS/MUNGOVAN_STEPHEN.jpg');}
+.isabel-olivares { background-image: url('/img/staff_photos/HIS/OLIVARES_ISABEL.jpg');}
+.bernedette-perez { background-image: url('/img/staff_photos/HIS/PEREZ_BERNEDETTE.jpg');}
+.nicole-rossini { background-image: url('/img/staff_photos/HIS/ROSSINI_NICOLE.jpg');}
+.sergio-salvetti { background-image: url('/img/staff_photos/HIS/SALVETTI_SERGIO.jpg');}
+.james-sanbonmatsu { background-image: url('/img/staff_photos/HIS/SANBONMATSU_JAMES.jpg');}
+.daniel-shiu { background-image: url('/img/staff_photos/HIS/SHIU_DANIEL.jpg');}
+.dennis-yee { background-image: url('/img/staff_photos/HIS/YEE_DENNIS.jpg');}
+/* Admin Services */
+.taras-madison { background-image: url('/img/staff_photos/AS/MADISON_TARAS.jpg');}
+/* Financial Services */
+.john-blackshear { background-image: url('/img/staff_photos/FS/BLACKSHEAR_JOHN.jpg');}
+.cynthia-damato { background-image: url('/img/staff_photos/FS/DAMATO_CYNTHIA.jpg');}
+.aldeliza-herrera { background-image: url('/img/staff_photos/FS/HERRERA_ALDELIZA.jpg');}
+.stephen-lee { background-image: url('/img/staff_photos/FS/LEE_STEPHEN.jpg');}
+.sarah-luu { background-image: url('/img/staff_photos/FS/LUU_SARAH.jpg');}
+.gayle-revels { background-image: url('/img/staff_photos/FS/REVELS_GAYLE.jpg');}
+.jane-sun { background-image: url('/img/staff_photos/FS/SUN_JANE.jpg');}
+.kristina-sun { background-image: url('/img/staff_photos/FS/SUN_KRISTINA.jpg');}
+.jonathan-tso { background-image: url('/img/staff_photos/FS/TSO_JONATHAN.jpg');}
+.lola-young { background-image: url('/img/staff_photos/FS/YOUNG_LOLA.jpg');}
+/* Payroll / Personnel */
+.niger-edwards { background-image: url('/img/staff_photos/PPD/EDWARDS_NIGER.jpg');}
+.emily-morrison { background-image: url('/img/staff_photos/PPD/MORRISON_EMILY.jpg');}
+.mia-vanessa-oro { background-image: url('/img/staff_photos/PPD/ORO_MIA_VANESSA.jpg');}
+.josephine-racelis { background-image: url('/img/staff_photos/PPD/RACELIS_JOSEPHINE.jpg');}
+/* Records Management Division */
+.jefferyi-baquiran { background-image: url('/img/staff_photos/RMD/BAQUIRAN_JEFFERYI.jpg');}
+.paul-bautista { background-image: url('/img/staff_photos/RMD/BAUTISTA_PAUL.jpg');}
+.alexander-catigan { background-image: url('/img/staff_photos/RMD/CATIGAN_ALEXANDER.jpg');}
+.saphonia-collins { background-image: url('/img/staff_photos/RMD/COLLINS_SAPHONIA.jpg');}
+.dwayne-farrell { background-image: url('/img/staff_photos/RMD/FARRELL_DWAYNE.jpg');}
+.rochelle-garrett { background-image: url('/img/staff_photos/RMD/GARRETT_ROCHELLE.jpg');}
+.benedicto-guinto { background-image: url('/img/staff_photos/RMD/GUINTO_BENEDICTO.jpg');}
+.nancy-gutierrez { background-image: url('/img/staff_photos/RMD/GUTIERREZ_NANCY.jpg');}
+.yiyi-he { background-image: url('/img/staff_photos/RMD/HE_YI_YI_MAGGIE.jpg');}
+.patty-herrera { background-image: url('/img/staff_photos/RMD/HERRERA_PATTY.jpg');}
+.heidi-lee { background-image: url('/img/staff_photos/RMD/LEE_HEIDI.jpg');}
+.noreen-murphy { background-image: url('/img/staff_photos/RMD/MURPHY_NOREEN.jpg');}
+.garland-simpson { background-image: url('/img/staff_photos/RMD/SIMPSON_GARLAND.jpg');}
+.tuti-suardana { background-image: url('/img/staff_photos/RMD/SUARDANA_TUTI.jpg');}
+.carmela-villasica { background-image: url('/img/staff_photos/RMD/VILLASICA_CARMELA.jpg');}
+.darren-wu { background-image: url('/img/staff_photos/RMD/WU_DARREN.jpg');}
+.may-yu { background-image: url('/img/staff_photos/RMD/YU_MAY_YING.jpg');}
+

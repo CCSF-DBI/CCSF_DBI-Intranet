@@ -1,0 +1,30 @@
+/* Special */
+.gldp-flatwhite {
+	position:relative;
+	top: -3px !important;
+	left: -3px !important;
+}
+.calendar-holiday {
+	color: #fff !important;
+	background:#966 !important;
+	border-color: #633 !important;
+	font-weight: bold !important;
+}
+.calendar-payperiod-end {
+	color: #fff !important;
+	background:#669 !important;
+	border-color: #336 !important;
+	font-weight: bold !important;
+}
+.calendar-holiday-payperiod-end {
+	color: #fff !important;
+	background:#969 !important;
+	border-color: #636 !important;
+	font-weight: bold !important;
+}
+.calendar-payday {
+	color: #fff !important;
+	background:#696 !important;
+	border-color: #363 !important;
+	font-weight: bold !important;
+}
