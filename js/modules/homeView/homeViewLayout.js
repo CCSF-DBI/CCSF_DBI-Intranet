@@ -6,9 +6,10 @@ define([
     'text!templates/modules/homeView/homeViewLayout.htm',
 	'modules/homeView/landingPage',
 	'modules/homeView/directorsOffice',
-	'modules/homeView/buildingInspectionCommission'
+	'modules/homeView/buildingInspectionCommission',
+	'modules/homeView/resources'
 ],
-function ($, Marionette, Handlebars, appEvents, templateHTML, LandingPage, DirectorsOffice, BICPage) {
+function ($, Marionette, Handlebars, appEvents, templateHTML, LandingPage, DirectorsOffice, BICPage, ResourcesPage) {
     return Marionette.View.extend({
         template: Handlebars.compile(templateHTML),
 		tagName: "div",
@@ -68,6 +69,15 @@ function ($, Marionette, Handlebars, appEvents, templateHTML, LandingPage, Direc
 			bicLandingPage.render();
 			$("#homeViewRegion", layout.$el).fadeOut(250, function() {
 				$("#homeViewRegion", layout.$el).empty().append(bicLandingPage.$el).fadeIn(250);
+			});
+		},
+		
+		showResourcesPage: function () {
+			var layout =  this;
+			var resourcesPage = new ResourcesPage({});
+			resourcesPage.render();
+			$("#homeViewRegion", layout.$el).fadeOut(250, function() {
+				$("#homeViewRegion", layout.$el).empty().append(resourcesPage.$el).fadeIn(250);
 			});
 		},
 

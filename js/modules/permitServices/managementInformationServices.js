@@ -114,7 +114,8 @@ define([
 		},{
 			firstname: "Mike",
 			lastname: "Taylor",
-			phone: "415-558-6146"
+			phone: "415-558-6146",
+			email: "Michael.Taylor"
 		},{
 			firstname: "Sim",
 			lastname: "Yeung",
