@@ -14,11 +14,9 @@ define([
             view.App = app;
             view.template = Handlebars.compile(templateHTML);
 			view.render();
-			view.getStaffMembers(view.managers);
-			view.addHorizontalRule();
- 			view.getStaffMembers(view.staffmembers);
+			view.getStaffMembers();
 			//appEvents.on('app:homeViewMod:started', view.render);
-       },
+        },
         render: function () {
             var view = this;
             var html = view.template();
@@ -37,47 +35,20 @@ define([
         /**
          * Custom methods
          */
-		getStaffMembers: function (collection) {
+		getStaffMembers: function () {
 			console.info("getStaffMembers");
 			var view = this;
-			var html = window.App.renderStaffMembers(collection);
+			var html = window.App.renderStaffMembers(view.staffmembers);
 			//console.warn(cview);
 			$("#staffpanel", view.$el).append(html);
 		},
 		
-		addHorizontalRule: function () {
-			var view = this;
-			$("#staffpanel", view.$el).append("<hr />");
-		},
-		
-		managers: [{
+		staffmembers: [{
 			firstname: "Patrick",
 			lastname: "O'Riordan",
 			title: "Chief Building Inspector",
 			phone: "415-558-6105",
 		},{
-			firstname: "Joseph",
-			lastname: "Duffy",
-			title: "Senior Building Inspector",
-			phone: "415-558-6656"
-		},{
-			firstname: "Bernie",
-			lastname: "Curran",
-			title: "Senior Building Inspector",
-			phone: "415-558-6094",
-		},{
-			firstname: "Yuang-Tam",
-			lastname: "Chiu",
-			title: "(Acting) Senior Building Inspector",
-			phone: "415-558-6111"
-		},{
-			firstname: "Donal",
-			lastname: "Duffy",
-			title: "(Acting) Senior Building Inspector",
-			phone: "415-558-6120"
-		}],
-		
-		staffmembers: [{
 			firstname: "Raymond",
 			lastname: "Berrios",
 			phone: "415-558-6124"
@@ -89,12 +60,15 @@ define([
 			firstname: "Dennis",
 			lastname: "Carlin Jr.",
 			phone: "415-558-6115",
-			email: "Dennis.Carlin",
 			photoClass: "dennis-carlin"
 		},{
 			firstname: "Chester",
 			lastname: "Chiu",
 			phone: "415-558-6252"
+		},{
+			firstname: "Yuang-Tam",
+			lastname: "Chiu",
+			phone: "415-558-6111"
 		},{
 			firstname: "Fergal",
 			lastname: "Clancy",
@@ -104,9 +78,21 @@ define([
 			lastname: "Cummins",
 			phone: "415-575-6934"
 		},{
+			firstname: "Bernard",
+			lastname: "Curran",
+			phone: "415-558-6094"
+		},{
+			firstname: "Nancy",
+			lastname: "Curvino",
+			phone: "415-558-6095"
+		},{
 			firstname: "Edward",
 			lastname: "Donnelly",
 			phone: "415-558-6010"
+		},{
+			firstname: "Joseph",
+			lastname: "Duffy",
+			phone: "415-558-6656"
 		},{
 			firstname: "Thomas",
 			lastname: "Fessler",

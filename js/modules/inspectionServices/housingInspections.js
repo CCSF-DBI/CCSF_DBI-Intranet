@@ -14,9 +14,7 @@ define([
             view.App = app;
             view.template = Handlebars.compile(templateHTML);
 			view.render();
-			view.getStaffMembers(view.managers);
-			view.addHorizontalRule();
-			view.getStaffMembers(view.staffmembers);
+			view.getStaffMembers();
 			//appEvents.on('app:homeViewMod:started', view.render);
         },
         render: function () {
@@ -37,59 +35,20 @@ define([
         /**
          * Custom methods
          */
-		getStaffMembers: function (collection) {
+		getStaffMembers: function () {
 			console.info("getStaffMembers");
 			var view = this;
-			var html = window.App.renderStaffMembers(collection);
+			var html = window.App.renderStaffMembers(view.staffmembers);
 			//console.warn(cview);
 			$("#staffpanel", view.$el).append(html);
 		},
 		
-		addHorizontalRule: function () {
-			var view = this;
-			$("#staffpanel", view.$el).append("<hr />");
-		},
-		
-		managers: [{
+		staffmembers: [{
 			firstname: "Rosemary",
 			lastname: "Bosque",
 			title: "Chief Housing Inspector",
 			phone: "415-558-6202"
 		},{
-			firstname: "Alan",
-			lastname: "Davison",
-			title: "Senior Housing Inspector",
-			phone: "415-558-6479"
-		},{
-			firstname: "Andy",
-			lastname: "Karcs",
-			title: "Senior Housing Inspector",
-			phone: "415-558-6465"
-		},{
-			firstname: "David",
-			lastname: "Herring",
-			title: "Senior Housing Inspector",
-			phone: "415-558-6212"
-		},{
-			firstname: "Jose",
-			lastname: "Lopez",
-			title: "Senior Housing Inspector",
-			phone: "415-558-6470",
-			email: "Jose.E.Lopez"
-		},{
-			firstname: "James",
-			lastname: "Sanbonmatsu",
-			title: "Senior Housing Inspector",
-			phone: "415-558-6186"
-		},{
-			firstname: "Bernedette",
-			lastname: "Perez",
-			title: "Principal Clerk",
-			phone: "415-558-6165",
-			email: "Bernadette.Perez"
-		}],
-		
-		staffmembers: [{
 			firstname: "Luis",
 			lastname: "Barahona",
 			phone: "415-558-6204"
@@ -106,6 +65,14 @@ define([
 			lastname: "Coble",
 			phone: "415-558-6190"
 		},{
+			firstname: "Alan",
+			lastname: "Davison",
+			phone: "415-558-6479"
+		},{
+			firstname: "Harry",
+			lastname: "DerVartanian",
+			phone: "415-575-6990"
+		},{
 			firstname: "Ronald",
 			lastname: "Dicks",
 			phone: "415-558-6632"
@@ -118,10 +85,22 @@ define([
 			lastname: "Grady",
 			phone: "415-558-6533"
 		},{
+			firstname: "David",
+			lastname: "Herring",
+			phone: "415-558-6212"
+		},{
+			firstname: "Andrew",
+			lastname: "Karcs",
+			phone: "415-558-6465"
+		},{
 			firstname: "Marisa",
 			lastname: "Lee Chan",
-			phone: "415-558-6221",
+			phone: "415-558-6116",
 			email: "Marisa.Chan"
+		},{
+			firstname: "Albert",
+			lastname: "Leong",
+			phone: "415-575-6991"
 		},{
 			firstname: "Anthony",
 			lastname: "Lepe",
@@ -130,6 +109,10 @@ define([
 			firstname: "Barbara",
 			lastname: "Lopez",
 			phone: "415-558-6317"
+		},{
+			firstname: "Jose",
+			lastname: "Lopez",
+			phone: "415-558-6470"
 		},{
 			firstname: "Matthew",
 			lastname: "Luton",
@@ -141,12 +124,15 @@ define([
 		},{
 			firstname: "Hatem",
 			lastname: "Mansur",
-			phone: "415-558-6514",
-			email: "Hatem.A.Mansur"
+			phone: "415-558-6514"
 		},{
 			firstname: "Liam",
 			lastname: "McCarthy",
 			phone: "415-558-6206"
+		},{
+			firstname: "Patrick",
+			lastname: "McKenzie",
+			phone: "415-558-6195"
 		},{
 			firstname: "Patrick",
 			lastname: "McManus",
@@ -160,6 +146,10 @@ define([
 			lastname: "Olivares",
 			phone: "415-558-6490"
 		},{
+			firstname: "Bernedette",
+			lastname: "Perez",
+			phone: "415-558-6165"
+		},{
 			firstname: "Nicole",
 			lastname: "Rossini",
 			phone: "415-558-6516"
@@ -168,13 +158,17 @@ define([
 			lastname: "Salvetti",
 			phone: "415-558-6246"
 		},{
+			firstname: "James",
+			lastname: "Sanbonmatsu",
+			phone: "415-558-6186"
+		},{
 			firstname: "Daniel",
 			lastname: "Shiu",
 			phone: "415-558-6199"
 		},{
-			firstname: "Dennis",
-			lastname: "Yee",
-			phone: "415-558-6211"
+			firstname: "Marisa",
+			lastname: "Lee Chan",
+			phone: "415-558-6116"
 		}]
 	});
 });

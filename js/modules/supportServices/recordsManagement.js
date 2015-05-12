@@ -49,6 +49,10 @@ define([
 			title: "Manager",
 			phone: "415-558-6130",
 		},{
+			firstname: "Jefferyi",
+			lastname: "Baquiran",
+			phone: "415-558-6247"
+		},{
 			firstname: "Paul",
 			lastname: "Bautista",
 			phone: "415-558-6818"
@@ -76,6 +80,12 @@ define([
 			firstname: "Nancy",
 			lastname: "Gutierrez",
 			phone: "415-558-6017"
+		},{
+			firstname: "Maggie Yi Yi",
+			lastname: "He",
+			phone: "415-558-6507",
+			email: "YiYi.He",
+			photoClass: "yiyi-he"
 		},{
 			firstname: "Heidi",
 			lastname: "Lee",

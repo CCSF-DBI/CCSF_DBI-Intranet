@@ -30,9 +30,7 @@ function (Backbone, Marionette, appController) {
 			"adminservices": "adminServices",
 			"finance": "financeServices",
 			"pp": "personnelPayroll",
-			"rmd": "recordsManagement",
-			/* Documents and Links */
-			"resources": "resources"
+			"rmd": "recordsManagement"
         }
     });
     return new AppRouter({controller: appController});

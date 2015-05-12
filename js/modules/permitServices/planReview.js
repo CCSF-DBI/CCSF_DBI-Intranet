@@ -51,171 +51,206 @@ define([
 			$("#staffpanel", view.$el).append("<hr />");
 		},
 		
-		managers: [
-			{
-				firstname: "Thomas",
-				lastname: "Le",
-				title: "Supervisor - Plan Review Team 1",
-				phone: "415-558-6140"
-			},{
-				firstname: "Rodolfo",
-				lastname: "Pada",
-				title: "Supervisor - Plan Review Team 2",
-				phone: "415-558-6456"
-			},{
-				firstname: "Ron",
-				lastname: "Tom",
-				title: "Supervisor - Plan Review Team 3",
-				phone: "415-558-6013"
-			},{
-				firstname: "Vivian",
-				lastname: "Huang",
-				title: "Supervisor - Plan Review Team 4",
-				phone: "415-558-6673"
-			},{
-				firstname: "Vacant",
-				lastname: "",
-				title: "Supervisor - Plan Review Team 5",
-				phone: "",
-				email: " "
-			},{
-				firstname: "Robert",
-				lastname: "Chun",
-				title: "Supervisor - Plan Review Team 6",
-				phone: "415-558-6491"
-			},{
-				firstname: "Gary",
-				lastname: "Ho",
-				title: "Supervisor - Plan Review Team 7",
-				phone: "415-558-6083"
-			},{
-				firstname: "Sylvia",
-				lastname: "Thai",
-				title: "Group Supervisor",
-				phone: "415-558-6139"
-			},{
-				firstname: "Irene",
-				lastname: "Bartholomew",
-				title: "Office Staff",
-				phone: "415-558-6065"
-			},{
-				firstname: "Mandy",
-				lastname: "Lei",
-				title: "Office Staff",
-				phone: "415-558-6072"
-			}
-		],
+		managers: [{
+			firstname: "Hanson",
+			lastname: "Tom",
+			title: "Manager",
+			phone: "415-558-6157",
+		},{
+			firstname: "Sylvia",
+			lastname: "Thai",
+			title: "Group Supervisor",
+			phone: "415-558-6139"
+		},{
+			firstname: "Irene",
+			lastname: "Bartholomew",
+			title: "Office Staff",
+			phone: "415-558-6065"
+		},{
+			firstname: "Mandy",
+			lastname: "Lei",
+			title: "Office Staff",
+			phone: "415-558-6072"
+		}],
 		
-		
-		staffmembers: [
-			{
-				firstname: "Joseph",
-				lastname: "Chan",
-				phone: "415-558-6071",
-			},{
-				firstname: "Min",
-				lastname: "Chen",
-				phone: "415-558-6655"
-			},{
-				firstname: "Derek",
-				lastname: "Cheung",
-				phone: "415-558-6699"
-			},{
-				firstname: "Jimmy",
-				lastname: "Cheung",
-				phone: "415-558-6201"
-			},{
-				firstname: "Jonathan",
-				lastname: "Chiu",
-				phone: "415-558-6491"
-			},{
-				firstname: "Dennis",
-				lastname: "Dang",
-				phone: "415-558-6136"
-			},{
-				firstname: "Eric",
-				lastname: "Gee",
-				phone: "415-558-6004"
-			},{
-				firstname: "Anne (Qi)",
-				lastname: "Hu",
-				phone: "415-558-6144",
-				email: "Qi.Hu",
-				photoClass: "qi-hu"
-			},{
-				firstname: "Stephen",
-				lastname: "Kwok",
-				phone: "415-558-6254"
-			},{
-				firstname: "Mabel",
-				lastname: "Li",
-				phone: "415-558-6291"
-			},{
-				firstname: "Emily",
-				lastname: "Lin",
-				phone: "415-558-6244"
-			},{
-				firstname: "Chu",
-				lastname: "Liu",
-				phone: "415-558-6118"
-			},{
-				firstname: "Jeffrey",
-				lastname: "Ma",
-				phone: "415-558-6150"
-			},{
-				firstname: "Reynaldo",
-				lastname: "Ortega",
-				phone: "415-558-6159"
-			},{
-				firstname: "Joseph",
-				lastname: "Ospital",
-				phone: "415-558-6255"
-			},{
-				firstname: "David",
-				lastname: "Pang",
-				phone: "415-558-6137"
-			},{
-				firstname: "Matthew",
-				lastname: "Ralls",
-				phone: "415-558-6145"
-			},{
-				firstname: "Xiang Susie",
-				lastname: "Song",
-				phone: "415-558-6542",
-				email: "Xiang.Song"
-			},{
-				firstname: "Richard",
-				lastname: "Tam",
-				phone: "415-558-6824"
-			},{
-				firstname: "Hanson",
-				lastname: "Tom",
-				phone: "415-558-6157",
-			},{
-				firstname: "Mark",
-				lastname: "Walls",
-				phone: "415-558-6918"
-			},{
-				firstname: "Irene",
-				lastname: "Wong",
-				phone: "415-558-6138"
-			},{
-				firstname: "Willy",
-				lastname: "Yau",
-				phone: "415-558-6134"
-			},{
-				firstname: "Diane",
-				lastname: "Yin",
-				phone: "415-558-6011"
-			},{
-				firstname: "Cyril",
-				lastname: "Yu",
-				phone: "415-558-6360"
-			},{
-				firstname: "Howard",
-				lastname: "Zee",
-				phone: "415-558-6919"
-			}
-		]
+		staffmembers: [{
+			firstname: "Joseph",
+			lastname: "Chan",
+			title: "",
+			phone: "415-558-6071",
+		},{
+			firstname: "Min",
+			lastname: "Chen",
+			title: "",
+			phone: "415-558-6655"
+		},{
+			firstname: "Derek",
+			lastname: "Cheung",
+			title: "",
+			phone: "415-558-6699"
+		},{
+			firstname: "Jimmy",
+			lastname: "Cheung",
+			title: "",
+			phone: "415-558-6201"
+		},{
+			firstname: "Jonathan",
+			lastname: "Chiu",
+			title: "",
+			phone: "415-558-6491"
+		},{
+			firstname: "Robert",
+			lastname: "Chun",
+			title: "",
+			phone: "415-558-6491"
+		},{
+			firstname: "Dennis",
+			lastname: "Dang",
+			title: "",
+			phone: "415-558-6136"
+		},{
+			firstname: "Eric",
+			lastname: "Gee",
+			title: "",
+			phone: "415-558-6004"
+		},{
+			firstname: "Spencer",
+			lastname: "Gosch",
+			title: "",
+			phone: "415-558-6086"
+		},{
+			firstname: "Gary",
+			lastname: "Ho",
+			title: "",
+			phone: "415-558-6083"
+		},{
+			firstname: "Anne (Qi)",
+			lastname: "Hu",
+			title: "",
+			phone: "415-558-6144",
+			email: "Qi.Hu",
+			photoClass: "qi-hu"
+		},{
+			firstname: "Vivian",
+			lastname: "Huang",
+			title: "",
+			phone: "415-558-6673"
+		},{
+			firstname: "Stephen",
+			lastname: "Kwok",
+			title: "",
+			phone: "415-558-6254"
+		},{
+			firstname: "Thomas",
+			lastname: "Le",
+			title: "",
+			phone: "415-558-6140"
+		},{
+			firstname: "Mabel",
+			lastname: "Li",
+			title: "",
+			phone: "415-558-6291"
+		},{
+			firstname: "Emily",
+			lastname: "Lin",
+			title: "",
+			phone: "415-558-6244"
+		},{
+			firstname: "Chu",
+			lastname: "Liu",
+			title: "",
+			phone: "415-558-6118"
+		},{
+			firstname: "Jeffrey",
+			lastname: "Ma",
+			title: "",
+			phone: "415-558-6150"
+		},{
+			firstname: "Reynaldo",
+			lastname: "Ortega",
+			title: "",
+			phone: "415-558-6159"
+		},{
+			firstname: "Joseph",
+			lastname: "Ospital",
+			title: "",
+			phone: "415-558-6255"
+		},{
+			firstname: "Rodolfo",
+			lastname: "Pada",
+			title: "",
+			phone: "415-558-6456"
+		},{
+			firstname: "David",
+			lastname: "Pang",
+			title: "",
+			phone: "415-558-6137"
+		},{
+			firstname: "Matthew",
+			lastname: "Ralls",
+			title: "",
+			phone: "415-558-6145"
+		},{
+			firstname: "Giles",
+			lastname: "Samarasinghe",
+			title: "",
+			phone: "415-558-6677"
+		},{
+			firstname: "Alan",
+			lastname: "Smith",
+			title: "",
+			phone: "415-558-6143"
+		},{
+			firstname: "Xiang Susie",
+			lastname: "Song",
+			title: "",
+			phone: "415-558-6542",
+			email: "Xiang.Song"
+		},{
+			firstname: "Richard",
+			lastname: "Tam",
+			title: "",
+			phone: "415-558-6824"
+		},{
+			firstname: "Simon",
+			lastname: "Tam",
+			title: "",
+			phone: "415-558-6019"
+		},{
+			firstname: "Ron",
+			lastname: "Tom",
+			title: "",
+			phone: "415-558-6013"
+		},{
+			firstname: "Mark",
+			lastname: "Walls",
+			title: "",
+			phone: "415-558-6918"
+		},{
+			firstname: "Irene",
+			lastname: "Wong",
+			title: "",
+			phone: "415-558-6138"
+		},{
+			firstname: "Willy",
+			lastname: "Yau",
+			title: "",
+			phone: "415-558-6134"
+		},{
+			firstname: "Diane",
+			lastname: "Yin",
+			title: "",
+			phone: "415-558-6011"
+		},{
+			firstname: "Cyril",
+			lastname: "Yu",
+			title: "",
+			phone: "415-558-6360"
+		},{
+			firstname: "Howard",
+			lastname: "Zee",
+			title: "",
+			phone: "415-558-6919"
+		}]
     });
 });

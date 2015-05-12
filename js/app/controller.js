@@ -296,19 +296,6 @@ define([
 				supportServicesMod.start();
 			}
 			supportServicesMod.layout.showRecordsManagementPage();
-		},
-
-		resources: function () {
-			console.info("Controller: Resources");
-			App.Events.trigger("app:navigateTo", {step: "resources"});
-			var homeViewMod = App.module("homeView");
-			if (!homeViewMod.moduleStarted) {				
-				_stopAllExcept(['homeView']);
-				var mainAppRegion = App.appContent.currentView.mainContentRegion;
-				mainAppRegion.show(homeViewMod.layout);
-				homeViewMod.start();
-			}
-			homeViewMod.layout.showResourcesPage();
 		}
     });
     return new AppController();

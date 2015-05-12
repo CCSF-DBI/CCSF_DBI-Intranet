@@ -49,19 +49,17 @@ define([
 			title: "Manager",
 			phone: "415-558-6033"
 		},{
-			firstname: "Cora",
-			lastname: "Ella",
-			title: "Executive Secretary II",
-			phone: "415-558-6638"
-		},{
 			firstname: "Christina",
 			lastname: "Bailey",
 			phone: "415-558-6135"
 		},{
 			firstname: "Yan-Yan",
 			lastname: "Chew",
-			phone: "415-558-6148",
-			email: "YanYan.Chew"
+			phone: "415-558-6148"
+		},{
+			firstname: "Cora",
+			lastname: "Ella",
+			phone: "415-558-6638"
 		},{
 			firstname: "Richard",
 			lastname: "Halloran",

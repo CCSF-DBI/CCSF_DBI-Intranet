@@ -53,6 +53,11 @@ define([
 			lastname: "Leung",
 			title: "Manager",
 			phone: "415-558-6033"
+		},{
+			firstname: "Sylvia",
+			lastname: "Thai",
+			title: "Executive Secretary",
+			phone: "415-558-6139"
 		}]
 	});
 });

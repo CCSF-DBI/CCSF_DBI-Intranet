@@ -44,14 +44,18 @@ define([
 		},
 		
 		staffmembers: [{
-			firstname: "Susan",
-			lastname: "Bufka",
+			firstname: "Mira",
+			lastname: "Lee",
 			title: "(Acting) Manager",
-			phone: "415-865-5714"
+			phone: "415-558-6003",
 		},{
 			firstname: "Tara",
 			lastname: "Bazile",
 			phone: "415-865-5709"
+		},{
+			firstname: "Susan",
+			lastname: "Bufka",
+			phone: "415-865-5714"
 		},{
 			firstname: "Jance",
 			lastname: "Chung",
@@ -59,8 +63,7 @@ define([
 		},{
 			firstname: "Fidel",
 			lastname: "Del Rosario",
-			phone: "415-865-5703",
-			email: "Fidel.DelRosario"
+			phone: "415-865-5703"
 		},{
 			firstname: "Delia",
 			lastname: "Galiza",
@@ -77,10 +80,6 @@ define([
 			firstname: "Yolanda",
 			lastname: "Laurente",
 			phone: "415-865-5712"
-		},{
-			firstname: "Mira",
-			lastname: "Lee",
-			phone: "415-558-6003",
 		},{
 			firstname: "Marianne",
 			lastname: "Pangelinan",
@@ -104,8 +103,7 @@ define([
 		},{
 			firstname: "Ren Yu",
 			lastname: "Zhang",
-			phone: "415-865-5704",
-			email: "Ren.Y.Zhang"
+			phone: "415-865-5704"
 		}]
 	});
 });

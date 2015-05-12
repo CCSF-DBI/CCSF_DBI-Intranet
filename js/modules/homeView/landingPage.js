@@ -2,9 +2,9 @@
  * Manages regions that hold side navigation text and images
  */
 define([
-    'jquery', 'marionette','app/events', 'handlebars', 'jquerycookie', 'gldatepicker', 'slick',
+    'jquery', 'marionette','app/events', 'handlebars', 'jquerycookie', 'gldatepicker',
     'text!templates/modules/homeView/landingPage.htm'
-], function ($, Marionette, appEvents, Handlebars, Cookie, DatePicker, Slick, templateHTML) {
+], function ($, Marionette, appEvents, Handlebars, Cookie, DatePicker, templateHTML) {
     return Marionette.View.extend({
 		tagName: 'div',
 		id: "homeViewLandingPage",
