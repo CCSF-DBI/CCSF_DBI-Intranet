@@ -14,8 +14,10 @@ define([
             view.App = app;
             view.template = Handlebars.compile(templateHTML);
 			view.render();
+			view.addHeader("Development Group");
 			view.getStaffMembers(view.staffmembers);
 			view.addHorizontalRule();
+			view.addHeader("Network Group");
 			view.getStaffMembers(view.dtstaff);
 			//appEvents.on('app:homeViewMod:started', view.render);
         },
@@ -44,6 +46,10 @@ define([
 			//console.warn(cview);
 			$("#staffpanel", view.$el).append(html);
 		},
+		addHeader: function (text) {
+			var view = this;
+			$("#staffpanel", view.$el).append("<div class='header'>" + text + "</div>");
+		},
 		addHorizontalRule: function () {
 			var view = this;
 			$("#staffpanel", view.$el).append("<hr />");
@@ -51,27 +57,27 @@ define([
 		dtstaff: [{
 			firstname: "Daniel Joel",
 			lastname: "Cusi",
-			title: "Principal IS Engineer",
+			//title: "Principal IS Engineer",
 			phone: "415-575-6846"
 		},{
 			firstname: "Kevin",
 			lastname: "Ip",
-			title: "Senior IS Engineer",
+			//title: "Senior IS Engineer",
 			phone: "415-575-6838"
 		},{
 			firstname: "Alan",
 			lastname: "Lee",
-			title: "IS Engineer",
+			//title: "IS Engineer",
 			phone: "415-575-6838"
 		},{
 			firstname: "Harold",
 			lastname: "Steger",
-			title: "IS Principal Engineer",
+			//title: "IS Principal Engineer",
 			phone: "415-558-6166"
 		},{
 			firstname: "Andy",
 			lastname: "Yu",
-			title: "Senior IS Administrator",
+			//title: "Senior IS Administrator",
 			phone: "415-558-6229"
 		}],
 		
@@ -79,8 +85,7 @@ define([
 			firstname: "Wilson",
 			lastname: "Lo",
 			title: "(Acting) Manager",
-			phone: "415-558-6674",
-			mobile: "415-930-3666"
+			phone: "415-558-6674"
 		},{
 			firstname: "Hemalatha",
 			lastname: "Nekkanti",
@@ -89,6 +94,7 @@ define([
 		},{
 			firstname: "Catherine",
 			lastname: "Cruz",
+			title: "Supervisor",
 			phone: "415-575-6902"
 		},{
 			firstname: "Kevin",
@@ -98,6 +104,14 @@ define([
 			firstname: "Pamela",
 			lastname: "Fong",
 			phone: "415-558-6685"
+		},{
+			firstname: "Rodell",
+			lastname: "Jacinto",
+			phone: "415-558-6031"
+		},{
+			firstname: "Jeff",
+			lastname: "Ng",
+			phone: "415-575-6677"
 		},{
 			firstname: "Kelvin",
 			lastname: "Nguyen",
@@ -109,7 +123,13 @@ define([
 		},{
 			firstname: "Mike",
 			lastname: "Taylor",
-			phone: "415-558-6146"
+			phone: "415-558-6146",
+			email: "Michael.Taylor"
+		},{
+			firstname: "Jennifer",
+			lastname: "Valencia",
+			phone: "415-558-6337",
+			email: "Michael.Taylor"
 		},{
 			firstname: "Sim",
 			lastname: "Yeung",

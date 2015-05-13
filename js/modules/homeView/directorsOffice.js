@@ -14,6 +14,7 @@ define([
             view.App = app;
             view.template = Handlebars.compile(templateHTML);
 			view.render();
+			view.getStaffMembers();
 			//appEvents.on('app:homeViewMod:started', view.render);
         },
         render: function () {
@@ -34,5 +35,48 @@ define([
         /**
          * Custom methods
          */
+		getStaffMembers: function () {
+			console.info("getStaffMembers");
+			var view = this;
+			var html = window.App.renderStaffMembers(view.staffmembers);
+			console.warn($("#staffpanel", view.$el));
+			$("#staffpanel", view.$el).append(html);
+		},
+		
+		staffmembers: [{
+			firstname: "Tom C.",
+			lastname: "Hui, S.E., C.B.O.",
+			title: "Director",
+			phone: "415-558-6131",
+			email: "Tom.Hui",
+			photoClass: "tom-hui"
+		},{
+			firstname: "Carolyn",
+			lastname: "Jayin",
+			title: "Executive Secretary",
+			phone: "415-558-6131"
+		},{
+			firstname: "Lily",
+			lastname: "Madjus Wu",
+			title: "Communications Director",
+			phone: "415-558-6107",
+			email: "Lily.Madjus",
+			photoClass: "lily-madjus"
+		},{
+			firstname: "Leanna",
+			lastname: "Chan",
+			title: "Communications Assistant",
+			phone: "415-558-6396"
+		},{
+			firstname: "Adriana",
+			lastname: "Ortiz",
+			title: "Senior Clerk",
+			phone: "415-558-6690"
+		},{
+			firstname: "William",
+			lastname: "Strawn",
+			title: "Manager, Legslative/Public Affairs",
+			phone: "415-558-6250"
+		}]
     });
 });

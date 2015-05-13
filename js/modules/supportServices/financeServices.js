@@ -61,9 +61,9 @@ define([
 			lastname: "Herrera",
 			phone: "415-575-6909"
 		},{
-			firstname: "Stephen",
+			firstname: "Sharon",
 			lastname: "Lee",
-			phone: "415-558-6230"
+			phone: "415-575-6947"
 		},{
 			firstname: "Sarah",
 			lastname: "Luu",
@@ -73,13 +73,13 @@ define([
 			lastname: "Sun",
 			phone: "415-558-6342"
 		},{
-			firstname: "Kristina",
-			lastname: "Sun",
-			phone: "415-575-6829"
-		},{
 			firstname: "Jonathan",
 			lastname: "Tso",
 			phone: "415-558-6621"
+		},{
+			firstname: "Christopher",
+			lastname: "Tam",
+			phone: "415-575-6829"
 		},{
 			firstname: "Lola",
 			lastname: "Young",

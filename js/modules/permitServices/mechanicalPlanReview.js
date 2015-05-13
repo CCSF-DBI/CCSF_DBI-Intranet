@@ -51,7 +51,8 @@ define([
 		},{
 			firstname: "Rosita",
 			lastname: "Cheung",
-			phone: "415-575-XXXX"
+			phone: "415-558-6086",
+			email: "Rosita.H.Cheung"
 		},{
 			firstname: "Danny",
 			lastname: "Lau",

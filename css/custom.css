@@ -13,13 +13,14 @@ body {background-color:#efefef;}
 #logo { text-align: center;}
 #logo img {max-width: 150px; margin-top:15px; cursor:pointer;}
 #mission-statement {font-size: 12px; max-width:700px;}
-#date { width:100%; text-align: center; padding-top: 10px; }
+#date { width:100%; text-align: center; padding-top: 10px; font-size:12px; font-weight:bold;}
 /* .sidebar {border-right:2px solid #36c;} */
 #sidenav { margin: 15px 0; }
 #AppContent {width:100%;}
 #AppContent #spinner { width: 50px; margin: 10px auto;}
 /* #appContentRegion { border-left:2px solid #36c; } */
 #address {font-size:14px;}
+#suggestions {font-size:12px; font-weight: bold; margin-top:15px; text-align:center;}
 .section-header {padding-left:10px;}
 .right-aligned { left:auto; right:0; }
 .head-spacer {height:9px;}
@@ -29,6 +30,8 @@ body {background-color:#efefef;}
 .link-item { display:inline-block; max-width:210px; min-height:200px; margin:0 10px 15px 0; padding:10px; text-align:center; vertical-align:middle; border:1px solid #ccc; border-radius:10px;}
 .link-item:hover {box-shadow: 0 0 5px #357ebd; }
 .link-image {max-height:100px;}
+.back-to-top {float:right; color:#fff; position: relative; top: -18px; text-shadow: 1px 1px 2px #000; cursor: pointer;}
+#resources td {padding-left:15px;}
 
 .dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,#sidenav .active{ 
 	background-color:#357ebd;
@@ -52,9 +55,13 @@ body {background-color:#efefef;}
 .split-column > .right-column {width: 230px; max-width:225px; text-align:right; padding-top:15px;}
 #calendar-container { height:185px; width:230px; padding:5px; text-align:center; vertical-align:middle; position: absolute; top: 15px; right: 0; border: 1px solid #ccc; border-radius: 5px; background-color:#fff;}
 .calendar-header { font-weight:bold; margin-bottom:5px; }
-#social-media-container {clear:both; position:relative; top: 460px; left: 0; text-align:center; }
+#events-calendar-container {clear:both; position: relative; top: 160px; }
+#social-media-container {clear:both; margin-top: 160px; left: 0; text-align:center; }
+#twitter-feed {max-width:230px; margin-bottom:15px;}
+.timeline-header {background-color:#3465A4; color:#fff;}
 #carousel-container {max-width:640px; min-height:250px; border-radius:15px; text-align:center;}
 #carousel-container > .image {background-color: #003; vertical-align:middle; text-align:center; min-width:100px; max-width:150px;max-height:300px;}
+.carousel-text { font-size:16px; text-align:center;}
 .overlay-text { position: relative; top: 82px; color: white; font-size: 14px; font-weight:bold; left: -2px; padding:2px; margin: 0 28px; 
 	background-color:#3465A4;
 	background-image:-moz-linear-gradient(left,#729FCF 0,#3465A4 100%);

@@ -14,7 +14,9 @@ define([
             view.App = app;
             view.template = Handlebars.compile(templateHTML);
 			view.render();
-			view.getStaffMembers();
+			view.getStaffMembers(view.managers);
+			view.addHorizontalRule();
+			view.getStaffMembers(view.staffmembers);
 			//appEvents.on('app:homeViewMod:started', view.render);
         },
         render: function () {
@@ -35,20 +37,42 @@ define([
         /**
          * Custom methods
          */
-		getStaffMembers: function () {
+		getStaffMembers: function (collection) {
 			console.info("getStaffMembers");
 			var view = this;
-			var html = window.App.renderStaffMembers(view.staffmembers);
+			var html = window.App.renderStaffMembers(collection);
 			//console.warn(cview);
 			$("#staffpanel", view.$el).append(html);
 		},
 		
-		staffmembers: [{
+		addHorizontalRule: function () {
+			var view = this;
+			$("#staffpanel", view.$el).append("<hr />");
+		},
+		
+		managers: [{
 			firstname: "Ron",
 			lastname: "Allen",
 			title: "Chief Electrical Inspector",
 			phone: "415-558-6028"
 		},{
+			firstname: "Paul",
+			lastname: "Ortiz",
+			title: "Senior Electrical Inspector",
+			phone: "415-558-6460"
+		},{
+			firstname: "Vernon",
+			lastname: "Takasuka",
+			title: "Senior Electrical Inspector",
+			phone: "415-575-6121"
+		},{
+			firstname: "Bryan",
+			lastname: "Keil",
+			title: "Senior Electrical Inspector",
+			phone: "415-558-6036"
+		}],
+		
+		staffmembers: [{
 			firstname: "Osha",
 			lastname: "Ashworth",
 			phone: "415-558-6039"
@@ -69,6 +93,10 @@ define([
 			lastname: "Doherty",
 			phone: "415-558-6669"
 		},{
+			firstname: "Ross",
+			lastname: "Eppler",
+			phone: "415-558-6040"
+		},{
 			firstname: "Daniel",
 			lastname: "Fross",
 			phone: "415-575-6026"
@@ -81,13 +109,13 @@ define([
 			lastname: "Holl",
 			phone: "415-558-6023"
 		},{
-			firstname: "Bryan",
-			lastname: "Keil",
-			phone: "415-558-6036"
-		},{
 			firstname: "Sergey",
 			lastname: "Kondrashov",
 			phone: "415-558-6038"
+		},{
+			firstname: "Albert",
+			lastname: "Leong",
+			phone: "415-558-6021"
 		},{
 			firstname: "Chantel",
 			lastname: "Lewis",
@@ -95,11 +123,11 @@ define([
 		},{
 			firstname: "Roger",
 			lastname: "Mascio",
-			phone: "415-575-6445"
+			phone: "415-558-6445"
 		},{
-			firstname: "Paul",
-			lastname: "Ortiz",
-			phone: "415-558-6460"
+			firstname: "Edward",
+			lastname: "Masck",
+			phone: "415-558-6427"
 		},{
 			firstname: "Cheryl",
 			lastname: "Rose",
@@ -112,10 +140,6 @@ define([
 			firstname: "Matthew",
 			lastname: "Schlecht",
 			phone: "415-558-6483"
-		},{
-			firstname: "Vernon",
-			lastname: "Takasuka",
-			phone: "415-575-6121"
 		},{
 			firstname: "Robert",
 			lastname: "Vankoll",

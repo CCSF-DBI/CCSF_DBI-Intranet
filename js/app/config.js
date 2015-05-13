@@ -21,6 +21,7 @@ require.config({
         //"modernizr": "lib/modernizr-2.6.2.min",
 		"bootstrap": "//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min",
 		"gldatepicker": "lib/glDatePicker.min",
+		"slick": "lib/slick.min",
         //"webfont": "https://ajax.googleapis.com/ajax/libs/webfont/1.5.3/webfont",
         "jsonlite": "lib/jsonlite",
         "async": "lib/require/plugins/require.async-v0.0.1",

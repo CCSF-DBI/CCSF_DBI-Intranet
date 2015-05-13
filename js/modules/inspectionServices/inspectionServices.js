@@ -14,7 +14,9 @@ define([
             view.App = app;
             view.template = Handlebars.compile(templateHTML);
 			view.render();
-			view.getStaffMembers();
+			view.getStaffMembers(view.managers);
+			view.addHorizontalRule();
+			view.getStaffMembers(view.staffmembers);
 			//appEvents.on('app:homeViewMod:started', view.render);
         },
         render: function () {
@@ -35,28 +37,52 @@ define([
         /**
          * Custom methods
          */
-		getStaffMembers: function () {
+		getStaffMembers: function (collection) {
 			console.info("getStaffMembers");
 			var view = this;
-			var html = window.App.renderStaffMembers(view.staffmembers);
+			var html = window.App.renderStaffMembers(collection);
 			//console.warn(cview);
 			$("#staffpanel", view.$el).append(html);
 		},
 		
-		staffmembers: [{
+		addHorizontalRule: function () {
+			var view = this;
+			$("#staffpanel", view.$el).append("<hr />");
+		},
+		
+		managers: [{
 			firstname: "Daniel",
 			lastname: "Lowrey",
 			title: "Deputy Director",
 			phone: "415-558-6127",
 		},{
-			firstname: "Anthony",
-			lastname: "Grieco",
-			title: "Manager",
-			phone: "415-558-6009"
+			firstname: "Carrie",
+			lastname: "Pei",
+			title: "Principal Clerk",
+			phone: "415-558-6572",
+			email: "Ying.Pei"
+		},{
+			firstname: "Adora",
+			lastname: "Canotal",
+			title: "Principal Clerk",
+			phone: "415-558-6316"
+		},{
+			firstname: "Ben",
+			lastname: "Man",
+			title: "Principal Clerk",
+			phone: "415-558-6575"
 		},{
 			firstname: "Maria",
 			lastname: "Asuncion",
+			title: "(Acting) Principal Clerk",
 			phone: "415-558-6442"
+		}],
+		
+		staffmembers: [{
+			firstname: "Czarina",
+			lastname: "Blackshear",
+			phone: "415-558-6657",
+			photoClass: "czarina-ysip-blackshear"
 		},{
 			firstname: "Sharae",
 			lastname: "Brown",
@@ -65,10 +91,6 @@ define([
 			firstname: "Alma",
 			lastname: "Canindin",
 			phone: "415-558-6056"
-		},{
-			firstname: "Adora",
-			lastname: "Canotal",
-			phone: "415-558-6316"
 		},{
 			firstname: "Samuel",
 			lastname: "Gregory",
@@ -84,27 +106,20 @@ define([
 		},{
 			firstname: "Jing Jing",
 			lastname: "Lu",
-			phone: "415-558-6271"
+			phone: "415-558-6271",
+			email: "JingJing.Lu"
 		},{
-			firstname: "Ben",
-			lastname: "Man",
-			phone: "415-558-6575"
-		},{
-			firstname: "Carrie",
-			lastname: "Pei",
-			phone: "415-558-6572"
-		},{
-			firstname: "Gregory",
-			lastname: "Slocum",
-			phone: "415-558-6104"
+			firstname: "Giles",
+			lastname: "Samarasinghe",
+			phone: "415-575-6867"
 		},{
 			firstname: "Mehret",
 			lastname: "Tesfaye",
 			phone: "415-558-6142"
 		},{
-			firstname: "Czarina",
-			lastname: "Ysip-Blackshear",
-			phone: "415-558-6657"
+			firstname: "Suzanna",
+			lastname: "Wong",
+			phone: "415-558-6104"
 		}]
 	});
 });

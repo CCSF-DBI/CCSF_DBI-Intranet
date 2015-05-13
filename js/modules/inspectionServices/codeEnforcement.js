@@ -51,11 +51,8 @@ define([
 		},{
 			firstname: "Catherine",
 			lastname: "Byrd",
+			title: "Principal Clerk",
 			phone: "415-558-6634"
-		},{
-			firstname: "Donal",
-			lastname: "Duffy",
-			phone: "415-558-6120"
 		},{
 			firstname: "Serena",
 			lastname: "Fung",
@@ -75,7 +72,8 @@ define([
 		},{
 			firstname: "Alan",
 			lastname: "Lei",
-			phone: "415-575-6834"
+			phone: "415-575-6834",
+			email: "YinSheng.Lei"
 		},{
 			firstname: "James",
 			lastname: "Li",
