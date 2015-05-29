@@ -36,7 +36,7 @@ define([
 			//console.info(step);
 			var link = $("a[href='#" + step + "']", view.$el);
 			var parentMenu = link.parent();
-			if (parentMenu.attr('id') !== "sidenav") {
+			if ((parentMenu.attr('id') !== "sidenav") && step !== '') {
 				var submenu = link.parentsUntil("#sidenav");
 				var div = submenu[submenu.length-1];
 				$("button", div).addClass('active');

@@ -11,7 +11,7 @@ body {background-color:#efefef;}
 .fa-file-excel-o {color:green;}
 .container {margin:15px auto; background-color:#fff; border-radius:10px; box-shadow: 0 2px 5px #333;}
 #logo { text-align: center;}
-#logo img {max-width: 150px; margin-top:15px; cursor:pointer;}
+#logo img {max-width: 165px; margin-top:15px; cursor:pointer;}
 #mission-statement {font-size: 12px; max-width:700px;}
 #date { width:100%; text-align: center; padding-top: 10px; font-size:12px; font-weight:bold;}
 /* .sidebar {border-right:2px solid #36c;} */
@@ -51,18 +51,18 @@ body {background-color:#efefef;}
 
 .split-column {clear:both;}
 .split-column > div {display: table-cell; position:relative; }
-.split-column > .main-column {top: -30px; padding-right:15px;}
+.split-column > .main-column {top: -30px; padding-right:15px; vertical-align: top;}
 .split-column > .right-column {width: 230px; max-width:225px; text-align:right; padding-top:15px;}
 #calendar-container { height:185px; width:230px; padding:5px; text-align:center; vertical-align:middle; position: absolute; top: 15px; right: 0; border: 1px solid #ccc; border-radius: 5px; background-color:#fff;}
 .calendar-header { font-weight:bold; margin-bottom:5px; }
-#events-calendar-container {clear:both; position: relative; top: 160px; }
-#social-media-container {clear:both; margin-top: 160px; left: 0; text-align:center; }
+#events-calendar-container {clear:both; position: relative; top: -25px; }
+#social-media-container {clear:both; left: 0; text-align:center; }
 #twitter-feed {max-width:230px; margin-bottom:15px;}
 .timeline-header {background-color:#3465A4; color:#fff;}
 #carousel-container {max-width:640px; min-height:250px; border-radius:15px; text-align:center;}
 #carousel-container > .image {background-color: #003; vertical-align:middle; text-align:center; min-width:100px; max-width:150px;max-height:300px;}
 .carousel-text { font-size:16px; text-align:center;}
-.overlay-text { position: relative; top: 82px; color: white; font-size: 14px; font-weight:bold; left: -2px; padding:2px; margin: 0 28px; 
+.overlay-text { position: relative; top: 58px; color: white; font-size: 10px; font-weight:bold; left: -4px; padding:2px; margin: 0 22px; 
 	background-color:#3465A4;
 	background-image:-moz-linear-gradient(left,#729FCF 0,#3465A4 100%);
 	background-image:-webkit-linear-gradient(left,#729FCF 0,#3465A4 100%);

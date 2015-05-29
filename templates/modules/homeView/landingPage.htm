@@ -78,17 +78,14 @@
 			</div>
 		</div>
 		<div class="right-column">
-			<input type="text" id="mydate" gldp-id="mydate" style="border:0;"/>
+			<!--input type="text" id="mydate" gldp-id="mydate" style="border:0;"/>
 			<div id="calendar-container" >	
 				<div class="calendar-header">
 					Payday &amp; Holiday Calendar
 				</div>
 				<div gldp-el="mydate" style="width:225px; height:150px;" id="mydate-calendar"></div>
 				<a id="tooltip" class="tooltips" href="javascript:void(0)">&nbsp;<span id="tooltip-text">Tooltip</span></a>
-			</div>
-			<div id="events-calendar-container">
-				<a href="http://sfdbi.org/events" target="_blank"><div class="overlay-text">Upcoming DBI Events</div><img src="/img/homeView/calendarclipart.png" width="230" /></a>
-			</div>
+			</div-->
 			<div id="social-media-container">
 				<div id="twitter-feed">
 					<a class="twitter-timeline" href="https://twitter.com/sfdbi" data-widget-id="560552866134253569" data-link-color="#3465A4" data-border-color="#cccccc">Tweets by @sfdbi</a>
@@ -105,7 +102,7 @@
 					js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
 					fjs.parentNode.insertBefore(js, fjs);
 					}(document, 'script', 'facebook-jssdk'));</script>
-					<div class="fb-like-box" data-href="https://www.facebook.com/SFDBI" data-width="230px" data-height="400px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
+					<div class="fb-like-box" data-href="https://www.facebook.com/SFDBI" data-width="230px" data-height="280px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
 				</div>
 			</div>
 		</div>
@@ -115,6 +112,7 @@
 <script type="text/javascript">
 	$(document).ready(function() {
 		// Set up the Calendar
+		/*
 		var specialDates = [];
 		var ppStartDay = 2;
 		var ppStartMonth = 0;
@@ -258,6 +256,7 @@
 				}
 			},
 			*/
+		/*
 			onShow: function(calendar) {
 				//alert('show');
 				$("#mydate-calendar").css("display", "block").show(250);
@@ -271,7 +270,7 @@
 		}).glDatePicker(true);
 		cal.render();
 		cal.show();
-
+*/
 
 		// Set up the Carousel
 		$("#carousel-container").slick({
