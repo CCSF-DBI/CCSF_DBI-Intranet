@@ -51,6 +51,11 @@ define([
 			email: "Tom.Hui",
 			photoClass: "tom-hui"
 		},{
+			firstname: "Ron",
+			lastname: "Tom",
+			title: "Assistant Director",
+			phone: "415-558-6013"
+		},{
 			firstname: "Carolyn",
 			lastname: "Jayin",
 			title: "Executive Secretary",

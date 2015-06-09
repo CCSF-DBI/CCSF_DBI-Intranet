@@ -56,6 +56,12 @@ define([
 			title: "Chief Plumbing Inspector",
 			phone: "415-558-6058"
 		},{
+			firstname: "Robert",
+			lastname: "Christman",
+			phone: "415-558-6055",
+			title: "Acting Senior Plumbing Inspector",
+			email: "Bob.Christman"
+		},{
 			firstname: "Alex",
 			lastname: "Kwan",
 			title: "Senior Plumbing Inspector",
@@ -80,11 +86,6 @@ define([
 			firstname: "Jason",
 			lastname: "Buckley",
 			phone: "415-558-6050"
-		},{
-			firstname: "Robert",
-			lastname: "Christman",
-			phone: "415-558-6055",
-			email: "Bob.Chri"
 		},{
 			firstname: "Roland",
 			lastname: "Davantes",

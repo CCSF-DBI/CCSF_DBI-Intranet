@@ -56,6 +56,16 @@ define([
 			title: "Chief Electrical Inspector",
 			phone: "415-558-6028"
 		},{
+			firstname: "Kenneth",
+			lastname: "Burke",
+			title: "Senior Electrical Inspector",
+			phone: "415-558-6035",
+		},{
+			firstname: "Bryan",
+			lastname: "Keil",
+			title: "Senior Electrical Inspector",
+			phone: "415-558-6036"
+		},{
 			firstname: "Paul",
 			lastname: "Ortiz",
 			title: "Senior Electrical Inspector",
@@ -65,11 +75,6 @@ define([
 			lastname: "Takasuka",
 			title: "Senior Electrical Inspector",
 			phone: "415-575-6121"
-		},{
-			firstname: "Bryan",
-			lastname: "Keil",
-			title: "Senior Electrical Inspector",
-			phone: "415-558-6036"
 		}],
 		
 		staffmembers: [{
@@ -80,10 +85,6 @@ define([
 			firstname: "Michael",
 			lastname: "Bain",
 			phone: "415-558-6020"
-		},{
-			firstname: "Kenneth",
-			lastname: "Burke",
-			phone: "415-558-6035",
 		},{
 			firstname: "Gary",
 			lastname: "Clifton",
@@ -96,10 +97,6 @@ define([
 			firstname: "Ross",
 			lastname: "Eppler",
 			phone: "415-558-6040"
-		},{
-			firstname: "Henry",
-			lastname: "Hinds",
-			phone: "415-558-6531"
 		},{
 			firstname: "Dennis",
 			lastname: "Holl",

@@ -63,11 +63,6 @@ define([
 				title: "Supervisor - Plan Review Team 2",
 				phone: "415-558-6456"
 			},{
-				firstname: "Ron",
-				lastname: "Tom",
-				title: "Supervisor - Plan Review Team 3",
-				phone: "415-558-6013"
-			},{
 				firstname: "Vivian",
 				lastname: "Huang",
 				title: "Supervisor - Plan Review Team 4",

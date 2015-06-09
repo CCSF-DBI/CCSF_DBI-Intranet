@@ -64,7 +64,7 @@ define([
 		},{
 			firstname: "Ben",
 			lastname: "Man",
-			title: "Permit Technician III",
+			title: "Permit Technician II",
 			phone: "415-558-6575"
 		},{
 			firstname: "Giles",
