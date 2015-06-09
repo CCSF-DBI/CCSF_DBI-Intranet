@@ -58,24 +58,24 @@ define([
 		},{
 			firstname: "Carrie",
 			lastname: "Pei",
-			title: "Principal Clerk",
+			title: "Permit Technician III",
 			phone: "415-558-6572",
 			email: "Ying.Pei"
+		},{
+			firstname: "Ben",
+			lastname: "Man",
+			title: "Permit Technician III",
+			phone: "415-558-6575"
+		},{
+			firstname: "Giles",
+			lastname: "Samarasinghe",
+			title: "Permit Technician II",
+			phone: "415-575-6867"
 		},{
 			firstname: "Adora",
 			lastname: "Canotal",
 			title: "Principal Clerk",
 			phone: "415-558-6316"
-		},{
-			firstname: "Ben",
-			lastname: "Man",
-			title: "Principal Clerk",
-			phone: "415-558-6575"
-		},{
-			firstname: "Maria",
-			lastname: "Asuncion",
-			title: "(Acting) Principal Clerk",
-			phone: "415-558-6442"
 		}],
 		
 		staffmembers: [{
@@ -108,10 +108,6 @@ define([
 			lastname: "Lu",
 			phone: "415-558-6271",
 			email: "JingJing.Lu"
-		},{
-			firstname: "Giles",
-			lastname: "Samarasinghe",
-			phone: "415-575-6867"
 		},{
 			firstname: "Mehret",
 			lastname: "Tesfaye",

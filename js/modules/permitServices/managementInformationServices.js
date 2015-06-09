@@ -14,10 +14,10 @@ define([
             view.App = app;
             view.template = Handlebars.compile(templateHTML);
 			view.render();
-			view.addHeader("Development Group");
+			view.addHeader("Application Development");
 			view.getStaffMembers(view.staffmembers);
 			view.addHorizontalRule();
-			view.addHeader("Network Group");
+			view.addHeader("Network Engineering");
 			view.getStaffMembers(view.dtstaff);
 			//appEvents.on('app:homeViewMod:started', view.render);
         },
@@ -65,6 +65,10 @@ define([
 			//title: "Senior IS Engineer",
 			phone: "415-575-6838"
 		},{
+			firstname: "Rodell",
+			lastname: "Jacinto",
+			phone: "415-558-6031"
+		},{
 			firstname: "Alan",
 			lastname: "Lee",
 			//title: "IS Engineer",
@@ -95,7 +99,8 @@ define([
 			firstname: "Catherine",
 			lastname: "Cruz",
 			title: "Supervisor",
-			phone: "415-575-6902"
+			phone: "415-575-6902",
+			email: "catherinecruz"
 		},{
 			firstname: "Kevin",
 			lastname: "Edwards",
@@ -105,13 +110,9 @@ define([
 			lastname: "Fong",
 			phone: "415-558-6685"
 		},{
-			firstname: "Rodell",
-			lastname: "Jacinto",
-			phone: "415-558-6031"
-		},{
 			firstname: "Jeff",
 			lastname: "Ng",
-			phone: "415-575-6677"
+			phone: "415-575-6877"
 		},{
 			firstname: "Kelvin",
 			lastname: "Nguyen",

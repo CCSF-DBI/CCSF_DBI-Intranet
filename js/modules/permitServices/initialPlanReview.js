@@ -44,17 +44,26 @@ define([
 		},
 		
 		staffmembers: [{
-			firstname: "Susan",
-			lastname: "Bufka",
-			title: "(Acting) Manager",
+			firstname: "Mira",
+			lastname: "Lee",
+			title: "(Acting) Supervisor",
+			phone: "415-558-6003",
+		},{
+			firstname: "Marla",
+			lastname: "Chapman",
+			title: "Permit Technician III, Supervisor",
 			phone: "415-865-5714"
+		},{
+			firstname: "Maria",
+			lastname: "Asuncion",
+			phone: "415-558-6442"
 		},{
 			firstname: "Tara",
 			lastname: "Bazile",
 			phone: "415-865-5709"
 		},{
-			firstname: "Marla",
-			lastname: "Chapman",
+			firstname: "Susan",
+			lastname: "Bufka",
 			phone: "415-865-5714"
 		},{
 			firstname: "Jance",
@@ -77,10 +86,6 @@ define([
 			firstname: "Yolanda",
 			lastname: "Laurente",
 			phone: "415-865-5712"
-		},{
-			firstname: "Mira",
-			lastname: "Lee",
-			phone: "415-558-6003",
 		},{
 			firstname: "Marianne",
 			lastname: "Pangelinan",

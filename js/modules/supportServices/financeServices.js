@@ -44,11 +44,6 @@ define([
 		},
 		
 		staffmembers: [{
-			firstname: "Gayle",
-			lastname: "Revels",
-			title: "(Acting) Chief Financial Officer",
-			phone: "415-558-6213",
-		},{
 			firstname: "John",
 			lastname: "Blackshear",
 			phone: "415-575-6801"
@@ -68,6 +63,10 @@ define([
 			firstname: "Sarah",
 			lastname: "Luu",
 			phone: "415-558-6324"
+		},{
+			firstname: "Gayle",
+			lastname: "Revels",
+			phone: "415-558-6213",
 		},{
 			firstname: "Jane",
 			lastname: "Sun",

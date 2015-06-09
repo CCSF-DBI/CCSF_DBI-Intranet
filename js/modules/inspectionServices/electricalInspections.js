@@ -97,10 +97,6 @@ define([
 			lastname: "Eppler",
 			phone: "415-558-6040"
 		},{
-			firstname: "Daniel",
-			lastname: "Fross",
-			phone: "415-575-6026"
-		},{
 			firstname: "Henry",
 			lastname: "Hinds",
 			phone: "415-558-6531"
@@ -120,10 +116,6 @@ define([
 			firstname: "Chantel",
 			lastname: "Lewis",
 			phone: "415-558-6037"
-		},{
-			firstname: "Roger",
-			lastname: "Mascio",
-			phone: "415-558-6445"
 		},{
 			firstname: "Edward",
 			lastname: "Masck",

@@ -124,10 +124,6 @@ define([
 			phone: "415-558-6053",
 			email: "Daniel.SheaIII"
 		},{
-			firstname: "Richard",
-			lastname: "Strabel",
-			phone: "415-558-6046"
-		},{
 			firstname: "John",
 			lastname: "Watson",
 			phone: "415-558-6573"
