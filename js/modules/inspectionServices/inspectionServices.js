@@ -60,7 +60,7 @@ define([
 			lastname: "Pei",
 			title: "Permit Technician III",
 			phone: "415-558-6572",
-			email: "Ying.Pei"
+			email: "Ying.Pei@sfgov.org"
 		},{
 			firstname: "Ben",
 			lastname: "Man",
@@ -107,7 +107,7 @@ define([
 			firstname: "Jing Jing",
 			lastname: "Lu",
 			phone: "415-558-6271",
-			email: "JingJing.Lu"
+			email: "JingJing.Lu@sfgov.org"
 		},{
 			firstname: "Mehret",
 			lastname: "Tesfaye",

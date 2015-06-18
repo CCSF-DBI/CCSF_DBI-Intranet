@@ -70,11 +70,6 @@ define([
 			lastname: "Ortiz",
 			title: "Senior Electrical Inspector",
 			phone: "415-558-6460"
-		},{
-			firstname: "Vernon",
-			lastname: "Takasuka",
-			title: "Senior Electrical Inspector",
-			phone: "415-575-6121"
 		}],
 		
 		staffmembers: [{

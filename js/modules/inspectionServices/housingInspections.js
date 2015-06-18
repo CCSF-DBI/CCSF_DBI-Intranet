@@ -75,7 +75,7 @@ define([
 			lastname: "Lopez",
 			title: "Senior Housing Inspector",
 			phone: "415-558-6470",
-			email: "Jose.E.Lopez"
+			email: "Jose.E.Lopez@sfgov.org"
 		},{
 			firstname: "James",
 			lastname: "Sanbonmatsu",
@@ -86,7 +86,7 @@ define([
 			lastname: "Perez",
 			title: "Principal Clerk",
 			phone: "415-558-6165",
-			email: "Bernadette.Perez"
+			email: "Bernadette.Perez@sfgov.org"
 		}],
 		
 		staffmembers: [{
@@ -121,7 +121,7 @@ define([
 			firstname: "Marisa",
 			lastname: "Lee Chan",
 			phone: "415-558-6221",
-			email: "Marisa.Chan"
+			email: "Marisa.Chan@sfgov.org"
 		},{
 			firstname: "Anthony",
 			lastname: "Lepe",
@@ -142,7 +142,7 @@ define([
 			firstname: "Hatem",
 			lastname: "Mansur",
 			phone: "415-558-6514",
-			email: "Hatem.A.Mansur"
+			email: "Hatem.A.Mansur@sfgov.org"
 		},{
 			firstname: "Liam",
 			lastname: "McCarthy",

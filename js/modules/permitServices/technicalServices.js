@@ -58,11 +58,6 @@ define([
 			lastname: "Bailey",
 			phone: "415-558-6135"
 		},{
-			firstname: "Yan-Yan",
-			lastname: "Chew",
-			phone: "415-558-6148",
-			email: "YanYan.Chew"
-		},{
 			firstname: "Richard",
 			lastname: "Halloran",
 			phone: "415-558-6110"

@@ -60,7 +60,7 @@ define([
 			firstname: "Mia Vanessa",
 			lastname: "Oro",
 			phone: "415-558-6184",
-			email: "Mia.Oro"
+			email: "Mia.Oro@sfgov.org"
 		},{
 			firstname: "Josephine",
 			lastname: "Racelis",

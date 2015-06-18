@@ -60,7 +60,7 @@ define([
 			lastname: "Christman",
 			phone: "415-558-6055",
 			title: "Acting Senior Plumbing Inspector",
-			email: "Bob.Christman"
+			email: "Bob.Christman@sfgov.org"
 		},{
 			firstname: "Alex",
 			lastname: "Kwan",
@@ -114,7 +114,7 @@ define([
 			firstname: "Dan",
 			lastname: "Ortega",
 			phone: "415-558-6463",
-			email: "Daniel.Ortega"
+			email: "Daniel.Ortega@sfgov.org"
 		},{
 			firstname: "Andrew",
 			lastname: "Palmigiano",
@@ -123,7 +123,7 @@ define([
 			firstname: "Daniel",
 			lastname: "Shea III",
 			phone: "415-558-6053",
-			email: "Daniel.SheaIII"
+			email: "Daniel.SheaIII@sfgov.org"
 		},{
 			firstname: "John",
 			lastname: "Watson",

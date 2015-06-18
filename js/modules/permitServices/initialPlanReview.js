@@ -73,7 +73,7 @@ define([
 			firstname: "Fidel",
 			lastname: "Del Rosario",
 			phone: "415-865-5703",
-			email: "Fidel.DelRosario"
+			email: "Fidel.DelRosario@sfgov.org"
 		},{
 			firstname: "Delia",
 			lastname: "Galiza",
@@ -110,7 +110,7 @@ define([
 			firstname: "Ren Yu",
 			lastname: "Zhang",
 			phone: "415-865-5704",
-			email: "Ren.Y.Zhang"
+			email: "Ren.Y.Zhang@sfgov.org"
 		}]
 	});
 });

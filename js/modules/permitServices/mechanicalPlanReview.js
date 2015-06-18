@@ -52,7 +52,7 @@ define([
 			firstname: "Rosita",
 			lastname: "Cheung",
 			phone: "415-558-6086",
-			email: "Rosita.H.Cheung"
+			email: "Rosita.H.Cheung@sfgov.org"
 		},{
 			firstname: "Danny",
 			lastname: "Lau",

@@ -102,7 +102,7 @@ function ($, _, Backbone, Handlebars, Marionette, Cookie, Bootstrap, appEvents, 
 		//console.warn(staffarray);
 		$.each(staffarray, function() {
 			// if an email or photoClass is specified, use it, otherwise concatenate first and last with a period or dash, respectively.
-			this.email = this.email ? this.email.trim() : String(this.firstname + " " + this.lastname).replace(/'/g, "").replace(/ /g, ".");
+			this.email = this.email ? this.email.trim() : String(this.firstname + " " + this.lastname).replace(/'/g, "").replace(/ /g, ".") + "@sfgov.org";
 			this.photoClass = this.photoClass ? this.photoClass : String(this.firstname + " " + this.lastname).replace(/'/g, "").replace(/ /g, "-").toLowerCase();
 		});
 		var collection = new Backbone.Collection(staffarray);

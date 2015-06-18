@@ -48,13 +48,14 @@ define([
 			lastname: "Hui, S.E., C.B.O.",
 			title: "Director",
 			phone: "415-558-6131",
-			email: "Tom.Hui",
+			email: "Tom.Hui@sfgov.org",
 			photoClass: "tom-hui"
 		},{
 			firstname: "Ron",
 			lastname: "Tom",
 			title: "Assistant Director",
-			phone: "415-558-6013"
+			phone: "415-558-6013",
+			email: "Ronald.Tom@sfgov.org"
 		},{
 			firstname: "Carolyn",
 			lastname: "Jayin",
@@ -65,13 +66,14 @@ define([
 			lastname: "Madjus Wu",
 			title: "Communications Director",
 			phone: "415-558-6107",
-			email: "Lily.Madjus",
+			email: "Lily.Madjus@sfgov.org",
 			photoClass: "lily-madjus"
 		},{
 			firstname: "Leanna",
 			lastname: "Chan",
 			title: "Communications Assistant",
-			phone: "415-558-6396"
+			phone: "415-558-6396",
+			email: "LeannaL.Chan@sfdpw.org"
 		},{
 			firstname: "Adriana",
 			lastname: "Ortiz",

@@ -93,7 +93,7 @@ define([
 			firstname: "Dennis",
 			lastname: "Carlin Jr.",
 			phone: "415-558-6115",
-			email: "Dennis.Carlin",
+			email: "Dennis.Carlin@sfgov.org",
 			photoClass: "dennis-carlin"
 		},{
 			firstname: "Chester",

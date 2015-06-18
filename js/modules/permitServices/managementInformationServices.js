@@ -100,7 +100,7 @@ define([
 			lastname: "Cruz",
 			title: "Supervisor",
 			phone: "415-575-6902",
-			email: "catherinecruz"
+			email: "catherinecruz@sfgov.org"
 		},{
 			firstname: "Kevin",
 			lastname: "Edwards",
@@ -125,12 +125,11 @@ define([
 			firstname: "Mike",
 			lastname: "Taylor",
 			phone: "415-558-6146",
-			email: "Michael.Taylor"
+			email: "Michael.Taylor@sfgov.org"
 		},{
 			firstname: "Jennifer",
 			lastname: "Valencia",
-			phone: "415-558-6337",
-			email: "Michael.Taylor"
+			phone: "415-558-6337"
 		},{
 			firstname: "Sim",
 			lastname: "Yeung",

@@ -73,7 +73,7 @@ define([
 			firstname: "Alan",
 			lastname: "Lei",
 			phone: "415-575-6834",
-			email: "YinSheng.Lei"
+			email: "YinSheng.Lei@sfgov.org"
 		},{
 			firstname: "James",
 			lastname: "Li",
@@ -86,7 +86,7 @@ define([
 			firstname: "Gloria",
 			lastname: "San Buenaventura",
 			phone: "415-558-6519",
-			email: "Gloria.SanBuenaventura"
+			email: "Gloria.SanBuenaventura@sfgov.org"
 		},{
 			firstname: "Teresita",
 			lastname: "Sulit",

@@ -49,10 +49,6 @@ define([
 			title: "Supervisor",
 			phone: "415-558-6074",
 		},{
-			firstname: "Christine",
-			lastname: "Chang",
-			phone: "415-575-6639"
-		},{
 			firstname: "Peter",
 			lastname: "Gibson",
 			phone: "415-558-6682"

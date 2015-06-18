@@ -14,7 +14,9 @@ define([
             view.App = app;
             view.template = Handlebars.compile(templateHTML);
 			view.render();
-			view.getStaffMembers();
+			view.getStaffMembers(view.management);
+			view.addHorizontalRule();
+			view.getStaffMembers(view.staffmembers);
 			//appEvents.on('app:homeViewMod:started', view.render);
         },
         render: function () {
@@ -35,20 +37,35 @@ define([
         /**
          * Custom methods
          */
-		getStaffMembers: function () {
+		getStaffMembers: function (array) {
 			console.info("getStaffMembers");
 			var view = this;
-			var html = window.App.renderStaffMembers(view.staffmembers);
+			var html = window.App.renderStaffMembers(array);
 			console.warn($("#staffpanel", view.$el));
 			$("#staffpanel", view.$el).append(html);
 		},
-		
-		staffmembers: [{
+		addHorizontalRule: function () {
+			var view = this;
+			$("#staffpanel", view.$el).append("<hr />");
+		},
+		management: [{
 			firstname: "Patty",
 			lastname: "Herrera",
 			title: "Manager",
 			phone: "415-558-6130",
 		},{
+			firstname: "Darren",
+			lastname: "Wu",
+			title: "Permit Technician II",
+			phone: "415-558-6015"
+		},{
+			firstname: "Tuti",
+			lastname: "Suardana",
+			title: "Principal Clerk",
+			phone: "415-558-6281"
+		}],
+		
+		staffmembers: [{
 			firstname: "Paul",
 			lastname: "Bautista",
 			phone: "415-558-6818"
@@ -93,10 +110,6 @@ define([
 			lastname: "Simpson",
 			phone: "415-558-6503"
 		},{
-			firstname: "Tuti",
-			lastname: "Suardana",
-			phone: "415-558-6281"
-		},{
 			firstname: "Carmela",
 			lastname: "Villasica",
 			phone: "415-558-6217"
@@ -104,10 +117,6 @@ define([
 			firstname: "Christina",
 			lastname: "Wang",
 			phone: "415-558-6338"
-		},{
-			firstname: "Darren",
-			lastname: "Wu",
-			phone: "415-558-6015"
 		},{
 			firstname: "May",
 			lastname: "Yu",

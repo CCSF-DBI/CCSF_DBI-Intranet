@@ -135,7 +135,7 @@ define([
 				firstname: "Anne (Qi)",
 				lastname: "Hu",
 				phone: "415-558-6144",
-				email: "Qi.Hu",
+				email: "Qi.Hu@sfgov.org",
 				photoClass: "qi-hu"
 			},{
 				firstname: "Stephen",
@@ -189,7 +189,7 @@ define([
 				firstname: "Xiang Susie",
 				lastname: "Song",
 				phone: "415-558-6542",
-				email: "Xiang.Song"
+				email: "Xiang.Song@sfgov.org"
 			},{
 				firstname: "Richard",
 				lastname: "Tam",
