@@ -59,8 +59,7 @@ define([
 			phone: "415-558-6442"
 		},{
 			firstname: "Tara",
-			lastname: "Bazile",
-			phone: "415-865-5709"
+			lastname: "Bazile"
 		},{
 			firstname: "Susan",
 			lastname: "Bufka",
