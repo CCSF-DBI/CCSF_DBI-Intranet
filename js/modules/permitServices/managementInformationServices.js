@@ -58,7 +58,8 @@ define([
 			firstname: "Daniel Joel",
 			lastname: "Cusi",
 			//title: "Principal IS Engineer",
-			phone: "415-575-6846"
+			phone: "415-575-6846",
+			email: "Joel.Cusi@sfgov.org"
 		},{
 			firstname: "Kevin",
 			lastname: "Ip",
@@ -100,7 +101,7 @@ define([
 			lastname: "Cruz",
 			title: "Supervisor",
 			phone: "415-575-6902",
-			email: "catherinecruz@sfgov.org"
+			email: "CatherineCruz@sfgov.org"
 		},{
 			firstname: "Kevin",
 			lastname: "Edwards",
