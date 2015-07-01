@@ -97,6 +97,10 @@ define([
 			title: "Manager",
 			phone: "415-558-6215"
 		},{
+			firstname: "Shawn",
+			lastname: "Bulen",
+			phone: "415-558-6802"
+		},{
 			firstname: "Catherine",
 			lastname: "Cruz",
 			title: "Supervisor",
@@ -106,10 +110,6 @@ define([
 			firstname: "Kevin",
 			lastname: "Edwards",
 			phone: "415-558-6412"
-		},{
-			firstname: "Pamela",
-			lastname: "Fong",
-			phone: "415-558-6685"
 		},{
 			firstname: "Jeff",
 			lastname: "Ng",

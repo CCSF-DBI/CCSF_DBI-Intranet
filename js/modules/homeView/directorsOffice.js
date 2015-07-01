@@ -75,6 +75,15 @@ define([
 			phone: "415-558-6396",
 			email: "LeannaL.Chan@sfdpw.org"
 		},{
+			firstname: "Matthew",
+			lastname: "Greene",
+			phone: "415-558-6534"
+		},{
+			firstname: "Michael",
+			lastname: "Mitchell",
+			title: "Senior Plumbing Inspector",
+			phone: "415-558-6044"
+		},{
 			firstname: "Adriana",
 			lastname: "Ortiz",
 			title: "Senior Clerk",

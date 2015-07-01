@@ -71,11 +71,6 @@ define([
 			lastname: "Farrow",
 			title: "Senior Plumbing Inspector",
 			phone: "415-558-6043"
-		},{
-			firstname: "Michael",
-			lastname: "Mitchell",
-			title: "Senior Plumbing Inspector",
-			phone: "415-558-6044"
 		}],
 		
 		staffmembers: [{

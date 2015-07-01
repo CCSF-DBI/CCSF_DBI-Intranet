@@ -60,6 +60,9 @@ define([
 			firstname: "Shirley",
 			lastname: "Torres",
 			phone: "415-558-6117"
+		},{
+			firstname: "Gloria",
+			lastname: "Yuen"
 		}]
 	});
 });
