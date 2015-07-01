@@ -101,7 +101,8 @@ define([
 			phone: "415-558-6108"
 		},{
 			firstname: "Bonnie",
-			lastname: "Kim"
+			lastname: "Kim",
+			phone: "415-558-6948"
 		},{
 			firstname: "Alvina",
 			lastname: "Lei",
