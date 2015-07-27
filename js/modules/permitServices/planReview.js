@@ -120,13 +120,13 @@ define([
 				lastname: "Cheung",
 				phone: "415-558-6201"
 			},{
+				firstname: "Rosita",
+				lastname: "Cheung",
+				phone: "415-558-6086"
+			},{
 				firstname: "Jonathan",
 				lastname: "Chiu",
 				phone: "415-558-6491"
-			},{
-				firstname: "Dennis",
-				lastname: "Dang",
-				phone: "415-558-6136"
 			},{
 				firstname: "Eric",
 				lastname: "Gee",
@@ -141,10 +141,6 @@ define([
 				firstname: "Stephen",
 				lastname: "Kwok",
 				phone: "415-558-6254"
-			},{
-				firstname: "Jeff",
-				lastname: "Lai",
-				phone: "415-558-6219"
 			},{
 				firstname: "Nelson",
 				lastname: "Lau",
@@ -164,7 +160,8 @@ define([
 			},{
 				firstname: "Betty",
 				lastname: "Lee",
-				phone: "415-558-6117"
+				phone: "415-558-6117",
+				email: "BettyWaiChing.Lee@sfgov.org"
 			},{
 				firstname: "Jeffrey",
 				lastname: "Ma",

@@ -84,11 +84,6 @@ define([
 			title: "Senior Plumbing Inspector",
 			phone: "415-558-6044"
 		},{
-			firstname: "Adriana",
-			lastname: "Ortiz",
-			title: "Senior Clerk",
-			phone: "415-558-6690"
-		},{
 			firstname: "William",
 			lastname: "Strawn",
 			title: "Manager, Legslative/Public Affairs",

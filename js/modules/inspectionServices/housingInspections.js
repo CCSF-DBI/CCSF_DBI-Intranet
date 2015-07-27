@@ -61,15 +61,15 @@ define([
 			title: "Senior Housing Inspector",
 			phone: "415-558-6479"
 		},{
-			firstname: "Andy",
-			lastname: "Karcs",
-			title: "Senior Housing Inspector",
-			phone: "415-558-6465"
-		},{
 			firstname: "David",
 			lastname: "Herring",
 			title: "Senior Housing Inspector",
 			phone: "415-558-6212"
+		},{
+			firstname: "Andy",
+			lastname: "Karcs",
+			title: "Senior Housing Inspector",
+			phone: "415-558-6465"
 		},{
 			firstname: "Jose",
 			lastname: "Lopez",
@@ -106,6 +106,10 @@ define([
 			lastname: "Coble",
 			phone: "415-558-6190"
 		},{
+			firstname: "Matt",
+			lastname: "Czajkowski",
+			phone: "415-558-6048"
+		},{
 			firstname: "Ronald",
 			lastname: "Dicks",
 			phone: "415-558-6632"
@@ -117,6 +121,10 @@ define([
 			firstname: "Christopher",
 			lastname: "Grady",
 			phone: "415-558-6533"
+		},{
+			firstname: "Christina",
+			lastname: "Lee",
+			phone: "415-575-6224"
 		},{
 			firstname: "Marisa",
 			lastname: "Lee Chan",

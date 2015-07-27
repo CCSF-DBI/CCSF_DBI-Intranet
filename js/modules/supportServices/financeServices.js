@@ -64,13 +64,14 @@ define([
 			lastname: "Luu",
 			phone: "415-558-6324"
 		},{
+			firstname: "Adriana",
+			lastname: "Ortiz",
+			//title: "Senior Clerk",
+			phone: "415-558-6690"
+		},{
 			firstname: "Jane",
 			lastname: "Sun",
 			phone: "415-558-6342"
-		},{
-			firstname: "Jonathan",
-			lastname: "Tso",
-			phone: "415-558-6621"
 		},{
 			firstname: "Christopher",
 			lastname: "Tam",

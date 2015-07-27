@@ -27,7 +27,7 @@ require.config({
         "async": "lib/require/plugins/require.async-v0.0.1",
         "text": "lib/require/plugins/require.text-v2.0.12",
         "i18n": "lib/require/plugins/require.i18n-v2.0.4",
-        "templates": "../templates",
+        "templates": "../templates"
         //"lib": "lib",
         //"modules": "modules",
         //"utils": "app/utils",

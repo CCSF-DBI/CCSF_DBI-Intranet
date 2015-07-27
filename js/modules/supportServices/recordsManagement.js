@@ -61,15 +61,11 @@ define([
 		},{
 			firstname: "Tuti",
 			lastname: "Suardana",
-			title: "Principal Clerk",
+			title: "Chief Clerk",
 			phone: "415-558-6281"
 		}],
 		
 		staffmembers: [{
-			firstname: "Paul",
-			lastname: "Bautista",
-			phone: "415-558-6818"
-		},{
 			firstname: "Alexander",
 			lastname: "Catigan",
 			phone: "415-558-6340"
@@ -105,6 +101,10 @@ define([
 			firstname: "Noreen",
 			lastname: "Murphy",
 			phone: "415-558-6536"
+		},{
+			firstname: "Yvonne",
+			lastname: "Ruiz",
+			phone: ""
 		},{
 			firstname: "Garland",
 			lastname: "Simpson",

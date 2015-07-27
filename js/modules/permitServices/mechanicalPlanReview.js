@@ -54,6 +54,10 @@ define([
 			phone: "415-558-6086",
 			email: "Rosita.H.Cheung@sfgov.org"
 		},{
+			firstname: "Jeff",
+			lastname: "Lai",
+			phone: "415-558-6219"
+		},{
 			firstname: "Danny",
 			lastname: "Lau",
 			phone: "415-558-6647"
